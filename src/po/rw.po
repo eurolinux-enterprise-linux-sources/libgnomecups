@@ -1,0 +1,74 @@
+# translation of libgnomecups to Kinyarwanda.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libgnomecups package.
+# Steve Murphy <murf@e-tools.com>, 2005
+# Steve performed initial rough translation from compendium built from translations provided by the following translators:
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Carole Karema <karemacarole@hotmail.com>, 2005.
+# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
+# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-04-01 15:54-0700\n"
+"PO-Revision-Date: 2005-03-31 20:55-0700\n"
+"Last-Translator: Steve Murphy <murf@e-tools.com>\n"
+"Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"ULL NAME <EMAIL@ADDRESS>\n"
+
+# svtools/source\dialogs\prnsetup.src:STR_SVT_PRNDLG_READY.text
+#: libgnomecups/gnome-cups-printer.c:88
+msgid "Ready"
+msgstr "Cyiteguye"
+
+# sfx2/source\view\view.src:STR_PRINTING.text
+#: libgnomecups/gnome-cups-printer.c:89 libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "Icapa"
+
+# svtools/source\dialogs\prnsetup.src:STR_SVT_PRNDLG_PAUSED.text
+#: libgnomecups/gnome-cups-printer.c:90 libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "Mu karuhuko"
+
+# filter/source\xsltdialog\xmlfilterdialogstrings.src:STR_UNKNOWN_APPLICATION.text
+#: libgnomecups/gnome-cups-printer.c:1024
+#: libgnomecups/gnome-cups-printer.c:1036 libgnomecups/gnome-cups-queue.c:40
+#: libgnomecups/gnome-cups-queue.c:41 libgnomecups/gnome-cups-queue.c:42
+#: libgnomecups/gnome-cups-queue.c:182 libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "Kitazwi"
+
+# desktop/source\app\ssodlg.src:DLG_SSOLOGIN.text
+#: libgnomecups/gnome-cups-printer.c:1043
+#, fuzzy, c-format
+msgid "%s: %s"
+msgstr "%s:%s"
+
+#: libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr ""
+
+#: libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "Kyahagariswe"
+
+#: libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr ""
+
+#: libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr ""
+
+#: libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr ""

@@ -1,0 +1,65 @@
+# translation of libgnomecups.HEAD.po to Galego
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-07-15 17:07+0200\n"
+"PO-Revision-Date: 2005-07-14 20:55+0200\n"
+"Last-Translator: Ignacio Casal Quinteiro <nacho.resa@gmail.com>\n"
+"Language-Team: Galego\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+
+#: ../libgnomecups/gnome-cups-printer.c:88
+msgid "Ready"
+msgstr "Preparado"
+
+#: ../libgnomecups/gnome-cups-printer.c:89
+#: ../libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "Imprimindo"
+
+#: ../libgnomecups/gnome-cups-printer.c:90
+#: ../libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "Pausado"
+
+#: ../libgnomecups/gnome-cups-printer.c:1024
+#: ../libgnomecups/gnome-cups-printer.c:1036
+#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
+#: ../libgnomecups/gnome-cups-queue.c:42
+#: ../libgnomecups/gnome-cups-queue.c:182
+#: ../libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "Descoñecido"
+
+#: ../libgnomecups/gnome-cups-printer.c:1043
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "Pendente"
+
+#: ../libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "Detido"
+
+#: ../libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "Cancelado"
+
+#: ../libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "Abortado"
+
+#: ../libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "Completado"

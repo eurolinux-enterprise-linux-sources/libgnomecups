@@ -1,0 +1,1357 @@
+2008-01-18  Gil Forcada  <gforcada@gnome.org>
+
+	* configure.in: Added mk, tr and zh_HK to ALL_LINGUAS.
+
+2007-10-14  Yannig Marchegay  <yannig@marchegay.org>
+
+	* configure.in: Added 'oc' to ALL_LINGUAS.
+
+2007-02-22  Peter Bach  <bach.peter@gmail.com>
+
+	* configure.in: Added 'da' to ALL_LINGUAS.
+
+2007-01-27  Matic Zgur  <mr.zgur@gmail.com>
+
+	* configure.in: Added 'sl' to ALL_LINGUAS.
+
+2007-01-02  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* libgnomecups/gnome-cups-request.c:
+	(gnome_cups_request_execute_async_internal):
+	Fix unsafe return. Patch from Stian Skjelstad. Closes bug #361549.
+
+2006-11-20  Jeffrey Stedfast  <fejj@novell.com>
+
+	* libgnomecups/gnome-cups-request.c (gnome_cups_request_new):
+	Simplified.
+	(gnome_cups_request_add_requested_attributes): Don't need to use a
+	attr variable here if we aren't going to use it. Also changed
+	IPP_TAG_KEYWORD to IPP_TAG_NAME to work with libcups 1.2
+
+2006-11-10  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* libgnomecups/Makefile.am: Reverse link order to get the libs
+	from the build prefix before the system libs.
+	Patch from Sylvain Bertrand. Closes bug #331137.
+
+2006-07-03  Hubert Figuiere  <hub@figuiere.net>
+
+	* libgnomecups/gnome-cups-request.c
+	(gnome_cups_request_add_requested_attributes): Add the
+	IPP_TAG_COPY to tell cups to copy the value instead of doing it
+	yourself. Fixes #339365
+
+2006-06-30  Jeffrey Stedfast  <fejj@novell.com>
+
+	* libgnomecups/gnome-cups-printer.c
+	(gnome_cups_printer_new_printer_notify_add_only_once): New
+	function.
+
+2006-04-18  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* configure.in: Remove obsolete entry for no_NO
+	* po/no.po: And the translation
+
+2006-04-11  Pema Geyleg  <pema.geyleg@gmail.com>
+
+	* configure.in: Added dz (Dzongkha) in ALL_LINGUAS.
+
+2006-03-28  Dan Winship  <danw@novell.com>
+
+	* libgnomecups/gnome-cups-printer.c (gnome_cups_printer_get_ppd):
+	Free the filename *after* unlinking it.
+
+2006-01-24  Clytie Siddall <clytie@riverland.net.au>
+
+	* configure.in	Added vi in ALL_LINGUAS line.
+	
+2005-09-26  Jody Goldberg <jody@gnome.org>
+
+	* configure.in : post release bump
+
+2005-09-26  Jody Goldberg <jody@gnome.org>
+
+	* Release 0.2.2
+
+2005-09-26  Jody Goldberg <jody@gnome.org>
+
+	* libgnomecups/gnome-cups-printer.c (gnome_cups_printer_finalize) :
+	  patch leak of some attributes.
+
+2005-09-06  Jody Goldberg <jody@gnome.org>
+
+	* configure.in : post release bump
+
+2005-09-06  Jody Goldberg <jody@gnome.org>
+
+	* Release 0.2.1
+
+2005-08-21  Žygimantas Beručka  <zygis@gnome.org>
+
+	* configure.in: Added "lt" (Lithuanian) to ALL_LINGUAS.
+
+2005-07-26  Alexander Shopov  <ash@contact.bg>
+
+	* configure.in: Added "bg" (Bulgarian) to ALL_LINGUAS
+
+2005-07-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* configure.in: Added "th" (Thai) to ALL_LINGUAS.
+
+2005-07-22  Pawan Chitrakar  <pawan@nplinux.org>
+
+	* configure.in: Added ne in ALL_LINGUAS
+
+2005-07-15  Ignacio Casal Quinteiro  <nacho.resa@gmail.com>
+
+	* configure.in: Added 'gl' to ALL_LINGUAS.
+
+2005-07-13  Rajesh Ranjan  <rajeshkajha@yahoo.com>
+
+	* configure.in (ALL_LINGUAS): Added hi.
+
+2005-07-11  Marcel Telka  <marcel@telka.sk>
+
+	* configure.in (ALL_LINGUAS): Added sk.
+
+2005-07-10  Amanpreet Singh Brar <amanpreetalam@yahoo.com>
+
+	* configure.in: "pa" is added to ALL_LINGUAS.
+
+2005-04-01  Steve Murphy  <murf@e-tools.com>
+
+	* configure.in: Added "rw" to ALL_LINGUAS.
+
+2005-03-31  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* libgnomecups/gnome-cups-request.h: Fix function prototype to be
+	static. Fixes build.
+
+2005-03-28  Jody Goldberg <jody@gnome.org>
+
+	http://bugzilla.gnome.org/show_bug.cgi?id=171533
+	* libgnomecups/gnome-cups-request.c (request_thread_main) : Use the
+	  right status strings.  200 == HTTP_OK
+
+2005-03-07  Jody Goldberg <jody@gnome.org>
+
+	* configure.in : post release bump
+
+2005-03-07  Jody Goldberg <jody@gnome.org>
+
+	* Release 0.2.0
+
+2005-03-04  Jody Goldberg <jody@gnome.org>
+
+	* libgnomecups/gnome-cups-printer.c (gnome_cups_printer_set_name) :
+	  delete.
+
+2005-02-17  Jody Goldberg <jody@gnome.org>
+
+	http://mail.gnome.org/archives/gnome-print-list/2004-August/msg00023.html
+	* libgnomecups/gnome-cups-printer.c (cups_get_dests) : copied from
+	  cups.
+	(parse_lpoptions) : stripped down cupsGetDests that does not pull in
+	  ppds.
+	(get_default) : Use parse_lpoptions in place of cupsGetDests.
+	(check_exists) : delete.
+	(gnome_cups_printer_get) : Just see if the list printer is in the list
+	  of known printers rather than using the defunct check_exists that
+	  would actually ping the printer.
+	(get_ppd_uri_path) : new.
+	(get_tmp_ppd_file) : new.
+	(gnome_cups_printer_get_ppd) :
+
+2005-02-17  Jody Goldberg <jody@gnome.org>
+
+	http://bugzilla.gnome.org/show_bug.cgi?id=157829
+	* libgnomecups/gnome-cups-request.c (idle_stop_unused_threads) :
+	  unlock before stopping the threads
+	(close_unused_connection) : avoid deadlocks when already locked.
+
+2005-01-06  Thomas Vander Stichele  <thomas at apestaart dot org>
+
+	* configure.in: error out if cups-config not found
+
+2004-12-14  Jody Goldberg <jody@gnome.org>
+
+	* configure.in : post releaes bump
+
+2004-12-14  Jody Goldberg <jody@gnome.org>
+
+	* Release 0.1.14
+
+2004-11-16  Jody Goldberg <jody@gnome.org>
+
+	* libgnomecups/gnome-cups-printer.c (gnome_cups_printer_set_name) :
+	  Add a decl in the header.
+
+	* libgnomecups/gnome-cups-printer.c (update_attributes) : disable the
+	  optimization that went directly to a printer when we knew it's host.
+	  This caused problems when the remote printer was not accessible, or
+	  for machines with unresolveable localnames (eg SuSE).  People can
+	  re-enable it if they'd like (eg RedHat) by tweaking the magic global
+	  static variable go_directly_to_printer_when_possible.
+	(_gnome_cups_printer_get_host) : ditto.
+
+2004-10-27  Jody Goldberg <jody@gnome.org>
+
+	* libgnomecups/gnome-cups-printer.c (gnome_cups_printer_set_name) : new
+	(gnome_cups_printer_set_description) :
+	    s/CUPS_ADD_PRINTER/IPP_SET_PRINTER_ATTRIBUTES/
+	(gnome_cups_printer_set_location) : ditto
+
+2004-10-14  Jody Goldberg <jody@gnome.org>
+
+	http://bugzilla.gnome.org/show_bug.cgi?id=151218
+	* libgnomecups/gnome-cups-request.c (gnome_cups_request_new) : patch
+	  minor leak.
+
+2004-10-10  Malcolm Tredinnick <malcolm@commsecure.com.au>
+
+	* configure.in: Wrap the GETTEXT_PACKAGE string in quotes.
+	Unbreaks the build.
+
+2004-10-09  James Henstridge  <james@jamesh.id.au>
+
+	* acconfig.h, acinclude.m4: remove unnecessary autoconf/automake
+	cruft.
+
+	* libgnomecups/Makefile.am: don't set LDFLAGS variable, since it
+	is meant to be a user variable.  Don't define GNOMELOCALEDIR,
+	since it is done in the configure script now.
+
+	* configure.in: remove some macro calls that are unnecessary with
+	newer versions of Automake.
+
+	* autogen.sh: ask for Automake >= 1.7
+
+2004-10-01  Jody Goldberg <jody@gnome.org>
+
+	* configure.in : post release bump
+
+2004-10-01  Jody Goldberg <jody@gnome.org>
+
+	* Release 0.1.13
+
+2004-09-30  Craig Jeffares <cjeffares@novell.com>
+
+	* Added zh_CN & zh_TW to configure.in
+
+2004-09-23  Jody Goldberg <jody@gnome.org>
+
+	* libgnomecups/gnome-cups-util.c
+	  (gnome_cups_util_unescape_uri_string) : be more relaxed about spaces
+
+2004-09-13  Jody Goldberg <jody@gnome.org>
+
+	* configure.in : post release bump
+
+2004-09-13  Jody Goldberg <jody@gnome.org>
+
+	* Release 0.1.12
+
+2004-09-13  Jody Goldberg <jody@gnome.org>
+
+	* libgnomecups/gnome-cups-queue.c (update_queue) : handle a failure in
+	  _gnome_cups_printer_get_host.
+
+2004-09-09  Ankit Patel <ankit@redhat.com>
+
+	* configure.in: Added 'gu' (Gujarati) to ALL_LINGUAS.
+
+2004-09-09  Pablo Saratxaga  <pablo@mandrakesoft.com>
+
+	* configure.in: Added Walloon (wa) to ALL_LINGUAS.
+
+2004-09-08  Jody Goldberg <jody@gnome.org>
+
+	* libgnomecups/gnome-cups-request.c (request_thread_main) : Add some
+	  optional debugging.
+
+2004-09-05  Ilkka Tuohela  <hile@iki.fi>
+
+	* Added fi to ALL_LINGUAS in configure.in.
+
+2004-09-04  Matthias Clasen  <maclas@gmx.de>
+
+	* libgnomecups/gnome-cups-printer.h: Fix a typo.
+
+2004-08-24  Colin Walters  <walters@verbum.org>
+
+	* libgnomecups/gnome-cups-request.c (_gnome_cups_request_init):
+	Ensure thread system is initialized.
+
+2004-08-24  Jody Goldberg <jody@gnome.org>
+
+	* configure.in : post release bump
+
+2004-08-24  Jody Goldberg <jody@gnome.org>
+
+	* Release 0.1.11
+
+2004-08-19  Jody Goldberg <jody@gnome.org>
+
+	* libgnomecups/gnome-cups-util.c
+	  (gnome_cups_util_unescape_uri_string) : from glib
+
+	* libgnomecups/gnome-cups-printer.c
+	(gnome_cups_printer_get_device_uri) : new.
+
+2004-08-19  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* configure.in: Added «nb» to ALL_LINGUAS.
+
+2004-08-18  Colin Walters  <walters@redhat.com>
+
+	* libgnomecups/gnome-cups-util.c (gnome_cups_util_escape_uri_string): New function,
+	stolen from gnome-cups-manager, which stole it from glib.  TODO:
+	make this function simply call the GLib version if available.
+
+	* libgnomecups/gnome-cups-util.h (gnome_cups_util_escape_uri_string): Prototype.
+	(GnomeCupsUnsafeCharacterSet): Define.
+
+2004-08-17  Jody Goldberg <jody@gnome.org>
+
+	* configure.in : post release version bump
+
+2004-08-17  Jody Goldberg <jody@gnome.org>
+
+	* Release 0.1.10
+
+2004-08-17  Jody Goldberg <jody@gnome.org>
+
+	* libgnomecups/gnome-cups-printer.c
+	  (gnome_cups_printer_get_is_local) : Add protection
+	(gnome_cups_printer_get_attributes_initialized) : ditto
+
+2004-08-14  Colin Walters  <walters@verbum.org>
+
+	* libgnomecups/gnome-cups-printer.c (update_attributes): If attributes
+	haven't been initialized yet, retrieve attributes from localhost
+	first, so we get the printer URI initialized.  Then we can
+	start getting attributes from the real server.
+
+	* libgnomecups/gnome-cups-request.c (gnome_cups_request_new_for_printer):
+	Fix totally broken logic - fail if attributes *aren't* initialized,
+	not if they are.
+
+2004-08-14  Colin Walters  <walters@verbum.org>
+
+	* libgnomecups/gnome-cups-util.c (gnome_cups_get_printer_uri): Refactor
+	to avoid a compiler warning.
+
+2004-08-13  Colin Walters  <walters@redhat.com>
+
+	* libgnomecups/gnome-cups-request.h (GnomeCupsAsyncRequestCallback):
+	Document.
+	
+	* libgnomecups/gnome-cups-request.c (gnome_cups_request_execute_async):
+	Document.
+
+2004-08-13  Colin Walters  <walters@redhat.com>
+
+	* libgnomecups/gnome-cups-request.c (gnome_cups_request_struct_free): Don't
+	free the GError - this should be done by the client.  Also add a comment
+	about memory handling.
+	(gnome_cups_request_execute_async_internal): Add comment.
+
+2004-08-13  Matthias Clasen  <mclasen@redhat.com>
+	    Colin Walters  <walters@redhat.com>
+
+	* libgnomecups/gnome-cups-request.c (gnome_cups_request_new_for_printer):
+	API change: take a GnomeCupsPrinter object instead of just a name,
+	and use it to get the URI of the printer.
+
+	* libgnomecups/gnome-cups-queue.c (check_exists): Just try
+	to create a GnomeCupsPrinter object.
+
+	* libgnomecups/gnome-cups-printer.c
+	(gnome_cups_printer_get_attributes_initialized): New function.
+	(gnome_cups_printer_get_uri): New function.
+	(gnome_cups_get_printer_uri): Move back to util.c.
+
+	* libgnomecups/gnome-cups-util.c (gnome_cups_get_printer_uri): Moved
+	back here.
+
+2004-08-11  Colin Walters  <walters@redhat.com>
+	    Matthias Clasen  <mclasen@redhat.com>
+
+	* libgnomecups/gnome-cups-printer.h
+	(gnome_cups_printer_printer_removed_notify_add)
+	(gnome_cups_printer_printer_removed_notify_remove): New functions,
+	used for getting notification of printer removal without
+	requiring holding a reference to the object.
+
+2004-08-03  Colin Walters  <walters@redhat.com>
+
+	* libgnomecups/gnome-cups-printer.c (update_attributes): Get
+	attributes from correct host.
+
+2004-07-22  Jody Goldberg <jody@gnome.org>
+
+	* configure.in : Post release verson bump
+
+2004-07-22  Jody Goldberg <jody@gnome.org>
+
+	* Release 0.1.9
+
+2004-06-23  Jody Goldberg <jody@gnome.org>
+
+	* libgnomecups/gnome-cups-request.h (#endif) : fix include
+
+2004-06-21  Colin Walters  <walters@redhat.com>
+
+	* libgnomecups/gnome-cups-request.h (GnomeCupsAsyncRequestCallback):
+	New callback typedef.
+	(gnome_cups_request_execute_async)
+	(_gnome_cups_outstanding_request_count)
+	(_gnome_cups_request_init, _gnome_cups_request_shutdown):
+	Prototype.
+
+	* libgnomecups/gnome-cups-request.c (GnomeCupsConnection,
+	GnomeCupsRequest): New.
+	(cups_password_cb): Moved here from gnome-cups-init.c.
+	(_gnome_cups_request_init, _gnome_cups_request_shutdown)
+	(idle_stop_unused_threads, close_unused_connection)
+	(idle_close_unused_connections, gnome_cups_request_struct_free)
+	(gnome_cups_request_connection_destroy)
+	(idle_signal_request_complete, do_signal_complete)
+	(gnome_cups_request_execute_async)
+	(gnome_cups_request_execute_async_internal)
+	(gnome_cups_request_cancel, request_thread_main): New functions,
+	implementing async API.
+	(_gnome_cups_outstanding_request_count): New function, replacing
+	gnome_cups_request_is_executing.
+	(GnomeCupsAsyncWrapperData): New.
+	(_gnome_cups_request_is_executing): Deleted.
+	(gnome_cups_request_execute): Reimplement using new async API.
+	():
+
+	* libgnomecups/gnome-cups-queue.c (get_jobs_cb,
+	get_jobs_on_server, update_queue): Use new async API.
+	(gnome_cups_queue_get_job_nocache): Update to new API.
+	(gnome_cups_queue_finalize): Cancel outstanding requests.
+
+	* libgnomecups/gnome-cups-printer.c (attributes_update_cb,
+	update_attributes): Use new async API.
+	(gnome_cups_printer_finalize): Cancel outstanding requests.
+	(_gnome_cups_printer_get_host): New function.
+
+	* libgnomecups/gnome-cups-init.c (cups_password_cb): Move to
+	gnome-cups-request.c.
+	(gnome_cups_shutdown): New function.
+
+	* configure.in: Require gthread.
+
+2004-06-18  Matthias Clasen  <mclasen@redhat.com>
+
+	* libgnomecups/gnome-cups-request.h: 
+	* libgnomecups/gnome-cups-request.c (gnome_cups_request_execute): 
+	Add a server argument, to allow executing requests on servers other
+	than localhost. Use NULL to execute requests on localhost.
+
+	* libgnomecups/gnome-cups-queue.c:
+	* libgnomecups/gnome-cups-printer.c: Adjust all callers.
+
+2004-06-17  Matthias Clasen  <mclasen@redhat.com>
+
+	* libgnomecups/gnome-cups-printer.h:
+	* libgnomecups/gnome-cups-printer.c (gnome_cups_printer_get_is_local): 
+	Add a way to find out if a printer is local.
+	* libgnomecups/gnome-cups-printer.c (gnome_cups_get_printer_uri): Moved 
+	here from gnome-cups-util.c and changed to return the actual printer uri
+	instead of faking a localhost one.
+
+2004-06-14  Colin Walters  <walters@verbum.org>
+
+	* libgnomecups/gnome-cups-printer.h (gnome_cups_printer_get_state_reasons):
+	Prototyped but not defined, deleting.
+
+2004-06-10  Matthias Clasen  <mclasen@redhat.com>
+
+	* libgnomecups/gnome-cups-queue.h:
+	* libgnomecups/gnome-cups-queue.c (gnome_cups_job_dup): 
+	(gnome_cups_job_get): New functions, to clone an existing
+	job struct and to obtain a job struct by its job id. This
+	allows to obtain job structs for completed jobs.
+
+	* libgnomecups/gnome-cups-queue.c (get_jobs): Request
+	job-media-sheets-completed, not job-media-sheets-complete.
+
+2004-06-04  Jody Goldberg <jody@gnome.org>
+
+	* configure.in : 0.1.9 post release bump
+
+2004-06-04  Jody Goldberg <jody@gnome.org>
+
+	* Release 0.18
+
+2004-05-25  Matthias Clasen  <mclasen@redhat.com>
+
+	* libgnomecups/gnome-cups-queue.c (get_jobs): Fill the
+	new time fields.
+
+	* libgnomecups/gnome-cups-queue.h: Add creation_time, 
+	processing_time and completed_time fields to GnomeCupsJobs, 
+	similar to the fields of the same name found in cups_job_t.
+
+2004-05-17  Jody Goldberg <jody@gnome.org>
+
+	* libgnomecups/gnome-cups-request.c (get_error_string) : typo as
+	  pointed out by monthos.
+
+2004-05-01  Adam Weinberger  <adamw@gnome.org>
+
+	* configure.in: Added en_CA to ALL_LINGUAS.
+
+2004-04-12  Gareth Owen  <gowen72@yahoo.com>
+
+	* configure.in: Added en_GB to ALL_LINGUAS
+
+2004-04-09  Samúel Jón Gunnarsson  <sammi@techattack.nu>
+
+	* configure.in: Added "is" to ALL_LINGUAS.
+	
+2004-04-09  Christian Rose  <menthos@menthos.com>
+
+	* configure.in: Added "sv" to ALL_LINGUAS.
+
+2004-03-22  Gustavo Maciel Dias Vieira  <gdvieira@zaz.com.br>
+
+	* configure.in: Added pt_BR to ALL_LINGUAS.
+
+2004-03-15  Jody Goldberg <jody@gnome.org>
+
+	* libgnomecups/gnome-cups-printer.c (set_timeout) :
+	  Make more robust in the face of no printers.
+
+2004-03-16  Maxim Dziumanenko <mvd@mylinux.com.ua>
+
+	* configure.in: Added "uk" (Ukrainian) to ALL_LINGUAS.
+
+2004-02-16  Alessio Frusciante  <algol@firenze.linux.it>
+
+	* configure.in: Added "it" (Italian) to ALL_LINGUAS.
+
+2004-02-07  Robert Sedak  <robert.sedak@sk.htnet.hr>
+
+	* configure.in: Added "hr" (Croatian) to ALL_LINGUAS.
+
+2004-01-28  Jody Goldberg <jody@gnome.org>
+
+	* libgnomecups/gnome-cups-request.c (gnome_cups_request_execute) : fix
+	  crash on start up.
+
+2004-01-21  Jordi Mallach  <jordi@sindominio.net>
+
+	* configure.in (ALL_LINGUAS): Added "ca" (Catalan).
+
+2004-01-17  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* configure.in: Added "no" to ALL_LINGUAS.
+
+2004-01-14  Ross Burton  <ross@burtonini.com>
+
+	* libgnomecups/gnome-cups-init.c:
+	Add API documentation.
+
+	* libgnomecups/gnome-cups-printer.c:
+	Fix a incorrect compare.
+
+	* libgnomecups/gnome-cups-request.c
+	Add a missing include.
+
+	* libgnomecups/gnome-cups-queue.c Don't assert that the
+	destination property is not NULL, as CUPS can return the same
+	property multiple times.
+
+2004-01-11  Christophe Merlet  <redfox@redfoxcenter.org>
+
+	* configure.in: Added "fr" (French) to ALL_LINGUAS.
+
+2004-01-08  Iñaki Larrañaga  <dooteo@euskalgnu.org>
+
+	* configure.in: Added "eu" (Basque) to ALL_LINGUAS.
+
+2003-12-14  Francisco Javier F. Serrador  <serrador@cvs.gnome.org>
+
+	* configure.in: Added Spanish (es) to ALL_LINGUAS.
+
+2003-12-01  Duarte Loreto <happyguy_pt@hotmail.com>
+
+	* configure.in: Added Portuguese (pt) to ALL_LINGUAS.
+
+2003-11-25  Danilo Šegan  <dsegan@gmx.net>
+
+	* configure.in: Added "sr" and "sr@Latn" to ALL_LINGUAS.
+
+2003-11-25  Miloslav Trmac  <mitr@volny.cz>
+
+	* configure.in (ALL_LINGUAS): Added Czech (cs).
+
+2003-11-24  Christian Neumair  <chris@gnome-de.org>
+
+	* configure.in: (ALL_LINGUAS): Added German (de).
+
+=== libgnomecups 0.1.6 ===
+
+2003-08-05  Dave Camp  <dave@ximian.com>
+
+	* NEWS:
+	* configure.in: Bumped to 0.1.6
+
+2003-07-31  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-printer.c: (get_option): Strip 
+	trailing whitespace from default values.
+	* libgnomecups/gnome-cups-request.c: (gnome_cups_request_execute):
+	Correctlyuse the main connection if there isn't a request 
+	executing on it.
+
+=== libgnomecups 0.1.5 ===
+
+2003-07-01  Dave Camp  <dave@ximian.com>
+
+	* configure.in: 
+	* NEWS: Bumped to 0.1.5
+
+2003-06-28  Takeshi AIHANA <aihana@gnome.gr.jp>
+
+	* configure.in: Added "ja" into ALL_LINGUAS.
+
+2003-06-24  Michael Meeks  <michael@ximian.com>
+
+	* libgnomecups/gnome-cups-printer.c
+	(gnome_cups_printer_print_file): add a slew of
+	pre-conditions.
+
+=== libgnomecups 0.1.4 ===
+
+2003-05-09  Dave Camp  <dave@ximian.com>
+
+	* configure.in: Bumped version to 0.1.4.
+
+2003-05-06  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-printer.c: (update_attributes),
+	(update_printers_timeout): 
+	* libgnomecups/gnome-cups-queue.c: (update_queues_timeout): Try
+	to avoid doing the update while another request is pending.
+	* libgnomecups/gnome-cups-request.c:
+	(_gnome_cups_request_is_executing), (gnome_cups_request_execute): 
+	* libgnomecups/gnome-cups-request.h: Reuse the http connection
+	if possible.
+
+2003-05-06  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-request.h: 
+	* libgnomecups/gnome-cups-request.c: (get_error_string): New
+	function, return human-readable error names.
+	(gnome_cups_request_execute): Return a GError.
+
+	* libgnomecups/gnome-cups-printer.c: (update_attributes),
+	(get_default), (get_printer_names), (check_exists),
+	(gnome_cups_printer_set_description),
+	(gnome_cups_printer_set_location), (gnome_cups_printer_pause),
+	(gnome_cups_printer_resume), (gnome_cups_printer_delete):
+	Updated calls to gnome_cups_request_execute()
+
+	* libgnomecups/gnome-cups-queue.c: (get_jobs), (check_exists),
+	(gnome_cups_queue_pause_job), (gnome_cups_queue_resume_job),
+	(gnome_cups_queue_cancel_job): Updated calls to
+	gnome_cups_request_execute().
+
+	* libgnomecups/gnome-cups-util.c: (gnome_cups_check_daemon): 
+	Just check that you can connect on the ipp port, don't
+	execute a request.
+
+2003-05-02  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-queue.c: (queue_removed),
+	(update_queues_timeout), (set_timeout), (remove_from_queues),
+	(gnome_cups_queue_get): Fixed the timeout and fixed up some
+	refcounting.
+
+=== libgnomecups 0.1.3 ===
+
+2003-05-02  Michael Meeks  <michael@ximian.com>
+
+	* configure.in: bump to 0.1.3, bump LT version,
+	fix sed error.
+
+	* libgnomecups/Makefile.am (LDFLAGS): versioning.
+	
+	* libgnomecups/gnome-cups-init.c (cups_password_cb): add
+	username / password.
+
+2003-05-01  Michael Meeks  <michael@ximian.com>
+
+	* libgnomecups/gnome-cups-init.c (cups_password_cb): impl.
+	to wrap the cups auth callback mess.
+	(gnome_cups_init): take an optional authentication
+	callback / set that up, do a g_type_init.
+
+	* libgnomecups/gnome-cups-printer.c
+	(gnome_cups_ppd_file_get_name, gnome_cups_ppd_file_release),
+	(gnome_cups_printer_get_ppd_file): impl. to wrap nasty,
+	thread unsafe cupsGetPPD
+	(gnome_cups_printer_force_refresh): impl.
+	(gnome_cups_printer_get_options): do an update to start.
+	(gnome_cups_printer_print_file): add a boolean return, and
+	GError parameter.
+	(gnome_cups_printer_unref): add for API thread sanity.
+
+	* tag BEFORE_OOO_BITS
+
+2003-04-25  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-printer.c (gnome_cups_printer_option_free): 
+	Free the option itself.
+
+=== libgnomecups 0.1.2 ===
+
+2003-04-21  Dave Camp  <dave@ximian.com>
+
+	* configure.in: 0.1.2.
+	
+2003-04-21  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-printer.h: Move the
+	GnomeCupsPrinterOptionType enum into the GnomeCupsPrinterOption
+	struct.
+
+=== libgnomecups 0.1.1 ===
+	
+2003-04-15  Dave Camp  <dave@ximian.com>
+
+	* configure.in: 0.1.1
+
+2003-04-06  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-printer.c: (get_option),
+	(printer_option_copy), (gnome_cups_printer_option_free):
+	* libgnomecups/gnome-cups-printer.h: Support option type and
+	user-visible text.
+
+2003-04-02  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-request.c: (gnome_cups_request_new): 
+	Request utf-8.
+
+2003-04-01  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-printer.c:
+	(gnome_cups_printer_set_description),
+	(gnome_cups_printer_set_location): Don't try to set the location
+	or description if it is the same as the current one.
+
+2003-03-31  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-printer.c: (get_default),
+	(update_default), (gnome_cups_printer_set_default): Read and write
+	the default printer to ~/.lpoptions.  This makes the default 
+	printer per-user, and makes it match what lpr uses.
+
+2003-03-28  Christopher James Lahey  <clahey@ximian.com>
+
+	* libgnomecups/gnome-cups-printer.c (update_default): Memory leak.
+	(gnome_cups_printer_get_option_value): Reimplemented this to use
+	the underlying stuff instead of getting the Option object and
+	grabbing the value.
+
+=== libgnomecups 0.1.0 ===
+
+2003-03-28  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-request.c:
+	(gnome_cups_response_set_error):  Tweaked the response code
+	checking.
+
+2003-03-27  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-printer.c: (gnome_cups_printer_pause):
+	Fixed indenting
+	* libgnomecups/gnome-cups-queue.c: (finish_job): Convert size to
+	bytes.
+	* libgnomecups/gnome-cups-queue.h:
+	* libgnomecups/gnome-cups-request.c: (gnome_cups_request_execute):
+	Reset the username before executing a new job.
+
+2003-03-27  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-printer.h:
+	* libgnomecups/gnome-cups-printer.c: (collect_ppds_foreach_cb),
+	(gnome_cups_printer_get_options): Implemented.
+	(gnome_cups_printer_print_file): New function.
+
+2003-03-19  Dave Camp  <dave@ximian.com>
+
+	* configure.in:
+	* gnome-cups-manager/tray.c:
+	* libgnomecups/Makefile.am:
+	* libgnomecups/gnome-cups-init.c:
+	* libgnomecups/gnome-cups-init.h:
+	* libgnomecups/gnome-cups-printer.c:
+	* libgnomecups/gnome-cups-printer.h:
+	* libgnomecups/gnome-cups-queue.c:
+	* libgnomecups/gnome-cups-queue.h:
+	* libgnomecups/gnome-cups-request.c:
+	* libgnomecups/gnome-cups-request.h:
+	* libgnomecups/gnome-cups-ui-init.c:  Moved libgnomecups into its 
+	own module.
+
+=== gnome-cups-manager 0.10 ===
+
+2003-03-13  Christopher James Lahey  <clahey@ximian.com>
+
+	* configure.in: 0.10.
+
+2003-03-13  Michael Meeks  <michael@server.home>
+
+	* libgnomecups/gnome-cups-printer.c (get_ppd_options):
+	cope with a NULL get_ppd return value
+	gnome-cups-manager -p FooPrinter gives odd, but non-fatal
+	results now.
+
+	* libgnomecups/gnome-cups-printer.c (update_printers)
+	(gnome_cups_get_printers): set last_update after doing
+	the update - so we always have a 5second space, instead
+	of one dependant on refresh speed.
+
+	* gnome-cups-manager/printer-properties.c
+	(update_general_page): Use the gnome icons theme code
+	so we get the correct icon in the properties page.
+	Leaks a GnomeIconTheme - but then what else can be done
+	with it ?
+
+	* gnome-cups-add/add-printer.c (get_detected_ppd):
+	don't double free the 'vendors' glist, free the
+	models list instead. #39351
+
+2003-03-12  Christopher James Lahey  <clahey@ximian.com>
+
+	* gnome-cups-add/add-printer.c (network_location_detect_manual):
+	Made SMB and IPP just not detect instead of reporting an error.
+	(get_manual_network_location): Changed these strings to be more
+	understandable.
+
+=== gnome-cups-manager 0.9 ===
+
+2003-03-07  Christopher James Lahey  <clahey@ximian.com>
+
+	* configure.in: 0.9.
+
+2003-03-07  Christopher James Lahey  <clahey@ximian.com>
+
+	* gnome-cups-manager/eggtrayicon.c,
+	gnome-cups-manager/eggtrayicon.h: Imported from cvs HEAD.
+
+2003-03-07  Christopher James Lahey  <clahey@ximian.com>
+
+	* gnome-cups-add/printerconf.c: Made this function static.
+
+	* gnome-cups-manager/gnome-cups-manager.glade: Added Double sided
+	option menu.
+
+	* gnome-cups-manager/printer-properties.c (setup_paper_page): Hook
+	up double sided option menu.
+
+	* libgnomecups/gnome-cups-printer.c
+	(gnome_cups_printer_set_option_value): Invalidate options when one
+	is set.
+	(gnome_cups_printer_get_ppd): Unlink the temporary PPD file.
+
+=== gnome-cups-manager 0.8 ===
+
+2003-02-06  Dave Camp  <dave@ximian.com>
+
+	* configure.in: 0.8.
+
+2003-02-05  Dave Camp  <dave@ximian.com>
+
+	* icons/Makefile.am: Install the new icon names.
+	* libgnomecups/gnome-cups-printer.c: (gnome_cups_printer_get_icon):
+	Use new icon names.
+
+2003-01-31  Dave Camp  <dave@ximian.com>
+
+	* Makefile.am:
+	* configure.in: Remove gnome-print-cups from the build, this has
+	been moved to the libgnomeprint packages.
+
+2003-01-28  Christopher James Lahey  <clahey@ximian.com>
+
+	* gnome-cups-add/snmpkit/session.C(SNMP_session::SNMP_session):
+	Made this run a new joiner if there isn't one running.
+
+2003-01-22  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-add/add-printer.c: (name_next), (main):  Fixed
+	warnings.
+	(get_manual_lpd_uri),
+	(get_manual_smb_uri), (get_manual_ipp_uri), (get_manual_hp_uri),
+	(get_manual_network_uri):
+	* gnome-cups-add/gnome-cups-add.glade: Implemented the ipp 
+	and JetDirect manual uris.
+
+2003-01-22  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups.pam: Allow pam_timestamp.
+
+2003-01-20  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-printer.c (is_local): Return FALSE on
+	a NULL device uri.
+
+2003-01-20  Dave Camp  <dave@ximian.com>
+
+	* nautilus-view/nautilus-printers.c: (get_icon_uri): Return 
+	NULL so dragging isn't allowed.
+	(show_selection_properties): Use -p instead of -c when launching
+	gnome-cups-manager.
+
+2003-01-20  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-add/add-printer.c: (name_next): Show a dialog if the
+	name field is invalid.
+	* gnome-cups-add/gnome-cups-add.glade:  Limit the description to
+	127 characters.
+
+2003-01-20  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-manager/gnome-cups-manager.c: (die_cb),
+	(add_to_session): Respond to the 'die' signal.
+
+2003-01-20  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-manager/gnome-cups-manager.c: (remove_from_session),
+	(check_cups): Remove from the session if cups isn't found.
+
+2003-01-20  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-queue.c (get_jobs):  Handle a NULL 
+	response.
+
+2003-01-20  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-manager/printer-properties.c: (close_window),
+	(close_clicked_cb), (printer_gone_cb),
+	(gnome_cups_manager_printer_properties):
+	* gnome-cups-manager/view-queue.c: (close_window),
+	(close_selected_cb), (queue_gone_cb),
+	(gnome_cups_manager_view_queue):  Close the properties and 
+	queue windows if the printer is removed.
+
+2003-01-17  Michael Meeks  <michael@server.home>
+
+	* libgnomecups/test-cups.c (timeout_fn):
+	return a value.
+
+	* libgnomecups/gnome-cups-printer.c
+	(update_attributes): map printer-info,
+	printer-make-and-model - useful for OO.o
+	(gnome_cups_printer_get_make_and_model),
+	(gnome_cups_printer_get_info): two new helpers.
+	(update_attributes): only deference response if
+	it's not NULL ;-)
+	(gnome_cups_printer_get): handle a NULL default_printer.
+
+=== gnome-cups-manager 0.7 ===
+
+2003-01-14  Dave Camp  <dave@ximian.com>
+
+	* configure.in: 0.7.
+	
+2003-01-14  Dave Camp  <dave@ximian.com>
+
+	* configure.in: Added a sed job to the cups-config line at
+	michael's request.
+
+	* libgnomecups/libgnomecups-1.0.pc.in: Include the cups
+	cflags/libs.
+
+2003-01-07  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-queue.c (get_jobs): Use MAP_STR for
+	job->state_reason.
+
+2003-01-07  Michael Meeks  <michael@server.home>
+
+	* */Makefile.am, */*.c: update to use the ui and
+	ui_init versions & -ui header includes.
+
+	* libgnomecups/gnome-cups-init.c: pare down to
+	almost nothing.
+
+	* libgnomecups/Makefile.am: build libgnomecupsui
+	install headers in the same place though.
+
+	* libgnomecups/gnome-cups-ui-init.h: add.
+
+	* libgnomecups/libgnomecupsui-1.0.pc.in: add.
+
+2003-01-06  Michael Meeks  <michael@server.home>
+
+	* libgnomecups/gnome-cups-printer.c
+	(gnome_cups_printer_finalize): free the reasons.
+	(reason_severity_compare_fn): impl.
+	(map_reasons): map to something more sensible.
+	(gnome_cups_printer_free_reasons): impl.
+
+2003-01-03  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-add/gnome-cups-add.glade: Changed the last page to
+	refer to "Apply" rather than "Finish".
+
+2003-01-03  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-manager/Makefile.am: Build printer-properties.[ch].
+	* gnome-cups-manager/printer-properties.c:
+	* gnome-cups-manager/printer-properties.h: Moved here 
+	from configure-printers.[ch].
+	
+	* gnome-cups-manager/printer-properties.c:
+	(gnome_cups_manager_printer_properties): Moved here from
+	gnome_cups_manager_configure_printer().
+
+	* gnome-cups-manager/gnome-cups-manager.c: (event_cb),
+	(printer_properties), (main): 
+	* gnome-cups-manager/view-queue.c: (properties_selected_cb): 
+	Updated to use the new function name.
+
+	* gnome-cups-manager/tray.c: (properties_activate_cb): Implemented.
+
+2002-12-10  Dave Camp  <dave@ximian.com>
+
+	* icons/*: New art.
+
+2002-12-10  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-add/add-printer.c: (get_manual_network_uri),
+	(get_manual_network_location):
+	* gnome-cups-add/gnome-cups-add.glade: Started implementing smb
+	printer adding.
+	* libgnomecups/gnome-cups-printer.c: (update_attributes): 
+	* libgnomecups/gnome-cups-printer.h: Small changes.
+
+=== gnome-cups-manager 0.6 ===
+
+2002-12-09  Dave Camp  <dave@ximian.com>
+
+	* configure.in: 0.6.
+
+2002-12-05  Dave Camp  <dave@ximian.com>
+
+	* nautilus-view/nautilus-printers.c: (get_icon_images),
+	(new_printer), (activate_selection): Remove some g_prints.
+	(nautilus_printer_container_dispose),
+	(printers_load_location):
+	(make_printers_view): Remove the new printer notification 
+	when the view goes away.
+	(update_click_mode),
+	(nautilus_printer_container_instance_init): Deal with the 
+	single-click property correctly.
+
+2002-12-05  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-printer.c: (update_attributes): Fill in
+	defaults if an attribute isn't found.
+	(is_local): device_uri always exists now.
+	(remove_from_printers), (printer_removed), (update_printers),
+	(set_timeout): Fixed some leaked printer refs.
+	(gnome_cups_printer_set_option_value): Removed unused variable.
+
+=== gnome-cups-manager 0.5 ===
+
+2002-12-04  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-add/add-printer.c: (local_location_next): Only use
+	the detected printer if the detected radio is selected.
+	* gnome-print-cups/gnome-print-cups.c: (get_model):
+	* libgnomecups/gnome-cups-printer.c: (set_timeout), (is_local):
+	Fixes to buglets.
+
+2002-12-03  Dave Camp  <dave@ximian.com>
+
+	* gnome-print-cups/gnome-print-cups.c: Don't include gpa-vendor.h.
+
+2002-12-02  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-add/add-printer.c: (local_location_setup),
+	(local_location_sensitivity): Fix sensitivity.
+	* libgnomecups/gnome-cups-request.c: (gnome_cups_request_new),
+	(gnome_cups_request_new_for_printer): Fix some memory management
+	in the ipp request.
+
+=== gnome-cups-manager 0.4 ===
+
+2002-11-29  Dave Camp  <dave@ximian.com>
+
+	* configure.in: 0.4
+
+2002-11-29  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-manager/gnome-cups-manager.glade: Removed 
+	unimplemented piece from the property dialog.
+
+2002-11-28  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-add/add-printer.c: (uri_from_pconf), (parse_pconf),
+	(option_menu_get_selected_item), (get_local_manual_uri),
+	(get_local_manual_location), (setup_port_option_menu),
+	(update_local_location_sensitivities), (local_location_setup),
+	(local_location_sensitivity), (local_location_next),
+	(get_selected_vendor), (get_selected_model), (get_selected_ppd):
+	* gnome-cups-add/gnome-cups-add.glade:  Implemented the manual 
+	port selection for local printers.
+
+2002-11-28  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-add/add-printer.c: (detected_printer_free),
+	(detected_printer_copy), (parse_pconf), (get_selected_uri),
+	(set_selected_location), (get_selected_location),
+	(local_location_next), (get_manual_network_location),
+	(network_location_next), (apply_prepare), (apply_finish): Implemented
+	a summary page to replace the batman quote.
+
+2002-11-28  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-add/add-printer.c: (select_row_by_string),
+	(select_item), (select_vendor), (select_model),
+	(select_detected_printer), (local_location_next),
+	(network_type_changed_cb), (get_selected_vendor),
+	(get_selected_model), (get_selected_ppd),
+	(populate_drivers_from_list), (populate_driver_option_menu),
+	(populate_model_option_menu), (model_option_menu_changed_cb),
+	(vendor_option_menu_changed_cb), (populate_vendor_option_menu),
+	(details_setup), (details_back), (details_next), (name_back),
+	(apply_finish):
+	* gnome-cups-add/gnome-cups-add.glade:  Reimplemented driver 
+	selection as described by anna.
+
+2002-11-27  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-manager/gnome-cups-manager.glade: Fixed some stuff.
+
+2002-11-26  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-add/gnome-cups-add.glade: Removed the quote from the 
+	apply page, lest our customers think we wear clown makeup and 
+	want to kill them (which may or may not be true).
+	* nautilus-view/nautilus-printers.c: (get_icon_images),
+	(handle_error), (new_printer), (open_printers),
+	(activate_selection), (show_selection_properties),
+	(properties_cb): Show the right icons, show error dialogs if there
+	are problems spawning the apps.
+
+2002-11-26  Dave Camp  <dave@ximian.com>
+
+	* configure.in: Output gnome-print-cups/Makefile.
+
+2002-11-26  Dave Camp  <dave@ximian.com>
+
+	* gnome-print-cups/Makefile.am: Build the CUPS backend for 
+	libgnomeprint.
+	* gnome-print-cups/gnome-print-cups-transport.c:
+	* gnome-print-cups/gnome-print-cups.c: CUPS backend for
+	libgnomeprint.
+
+2002-11-26  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-manager/configure-printer.c: (close_clicked_cb): New
+	function.
+	(gnome_cups_manager_configure_printer): Connect to close's
+	"clicked" signal.	
+
+2002-11-25  Dave Camp  <dave@ximian.com>
+
+	* Makefile.am:
+	* configure.in:
+	* gnome-cups-add/gnome-cups-add.glade: Tweaks from Anna.
+	* gnome-cups-manager/Makefile.am: Added configure-printer.[ch].
+	* gnome-cups-manager/gnome-cups-manager.c: (event_cb),
+	(get_listener), (show_printer), (configure_printer), (main): Implement
+	-c to show printer properties.
+	* gnome-cups-manager/gnome-cups-manager.glade: Added the printer
+	properties window.
+	* gnome-cups-manager/view-queue.c: (list_store_set_job): Use the job
+	state string from the job structure.
+	(properties_selected_cb): Show the properties window.
+	(setup_menus): Connect to the properties menu item.
+	(setup_queue_tree): Tweak the sizes.
+	(gnome_cups_manager_view_queue): Show the window.
+	* icons/Makefile.am: Added i-network-printer.png.
+	* libgnomecups/gnome-cups-printer.c: (gnome_cups_get_printers): Update
+	if the list hasn't been updated recently.
+	(gnome_cups_get_default): Moved here.
+	(update_attributes): Get some new attributes.
+	(_gnome_cups_printer_init),
+	(remove_from_printers), (update_printers),
+	(update_printers_timeout), (set_timeout),
+	(gnome_cups_printer_new_printer_notify_add),
+	(gnome_cups_printer_new_printer_notify_remove),
+	(gnome_cups_printer_get): Fix the updating to
+	properly add and remove the timeout.
+	(is_local): New function.
+	(gnome_cups_printer_get_icon): 
+	(gnome_cups_printer_get_full_state): 
+	(gnome_cups_printer_get_ppd): 
+	(gnome_cups_printer_get_description): 
+	(gnome_cups_printer_set_description)
+	(gnome_cups_printer_get_location),
+	(gnome_cups_printer_set_location), (get_option), (get_ppd_options),
+	(get_dest_options), (update_options), (printer_option_copy),
+	(gnome_cups_printer_get_options), (gnome_cups_printer_get_option),
+	(gnome_cups_printer_get_option_value),
+	(gnome_cups_printer_set_option_value),
+	(gnome_cups_printer_option_free),
+	(gnome_cups_printer_option_list_free): New functions.
+	(gnome_cups_printer_finalize): Cleanup stuff.
+
+=== gnome-cups-manager 0.3 ===
+
+2002-11-13  Dave Camp  <dave@ximian.com>
+
+	* configure.in: 0.3.
+
+2002-11-12  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-add/add-printer.c (apply_finish): Call
+	gtk_main_quit() after applying.
+
+2002-11-12  Dave Camp  <dave@ximian.com>
+
+	* libgnomecups/gnome-cups-init.c: (cups_password_cb): Cast things.
+	(gnome_cups_init): Init the printer update.
+	* libgnomecups/gnome-cups-printer.c: (gnome_cups_get_printers),
+	(gnome_cups_printer_list_free), (update_default), (printer_added),
+	(printer_removed), (get_printer_names), (update_printers_timeout),
+	(gnome_cups_printer_new_printer_notify_add),
+	(gnome_cups_printer_new_printer_notify_remove),
+	(gnome_cups_printer_get), (gnome_cups_printer_get_type),
+	(_gnome_cups_printer_init): Redid the printer updating.
+	* libgnomecups/gnome-cups-printer.h:
+	* libgnomecups/gnome-cups-request.c:
+	* libgnomecups/gnome-cups-request.h: Moved the printer listing 
+	into gnome-cups-printer.[ch].
+
+2002-11-12  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-manager/gnome-cups-manager.c: (check_cups): New function.
+	(main): If cups isn't running, display an error dialog and quit.
+	* libgnomecups/gnome-cups-request.c: (gnome_cups_check_daemon): New
+	function to check if the daemon is running.
+	(gnome_cups_get_printers): Deal gracefully with a nonexistent daemon.
+	(gnome_cups_get_printer_uri): New function
+	(gnome_cups_request_new_for_printer): Use get_printer_uri.
+	* libgnomecups/gnome-cups-printer.c: (update_attributes),
+	(update_default):  Handle null default printer.
+	(update_printers_timeout): Don't update the queue.
+	(gnome_cups_printer_get_job_count):
+	(gnome_cups_printer_get_queue): New functions.
+	(gnome_cups_printer_finalize),
+	(gnome_cups_printer_class_init): Removed the job code, moved to 
+	GnomeCupsQueue.
+	* nautilus-view/nautilus-printers.c: (get_icon_text),
+	(printer_added_cb), (printers_load_location):  
+	* gnome-cups-manager/tray.c: (printer_changed_cb):
+	(watch_printer):  Use the job_count attribute instead of watching
+	the queue itself.
+	* gnome-cups-manager/view-queue.c: (add_jobs), (init_queue),
+	(handle_error), (pause_jobs_cb), (resume_jobs_cb),
+	(cancel_jobs_cb), (disconnect_view), (jobs_added_cb),
+	(jobs_removed_cb), (jobs_changed_cb),
+	(gnome_cups_manager_view_queue): Use the GnomeCupsQueue object.
+	* libgnomecups/Makefile.am: Added gnome-cups-queue.[ch], removed
+	gnome-cups-job.[ch].
+
+=== gnome-cups-manager 0.2 ===
+	
+2002-11-07  Dave Camp  <dave@ximian.com>
+
+	* configure.in: 0.2.
+
+2002-11-07  Dave Camp  <dave@ximian.com>
+
+	* configure.in: Removed vfs stuff.
+
+2002-11-06  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-manager/gnome-cups-manager.c:
+	(gnome_cups_error_dialog), (event_cb): If asked to view a queue 
+	that doesn't exist, show an error dialog.
+	* libgnomecups/gnome-cups-printer.c: (check_exists),
+	(gnome_cups_printer_get): Return NULL from gnome_cups_printer_get
+	if the printer does not exist.
+	* nautilus-view/nautilus-printers.c: (handle_error): Pop up
+	a GtkMessageDialog.
+
+2002-11-06  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-manager/gnome-cups-manager.c:
+	(gnome_cups_error_dialog):
+	* gnome-cups-manager/gnome-cups-manager.h:
+	* gnome-cups-manager/tray.c: (pause_or_resume_activate_cb),
+	(properties_activate_cb): 
+	* gnome-cups-manager/view-queue.c: (handle_error),
+	(pause_or_resume_selected_cb), (set_as_default_selected_cb),
+	(pause_jobs_cb), (resume_jobs_cb), (cancel_jobs_cb):
+	* libgnomecups/gnome-cups-printer.c: (gnome_cups_printer_pause),
+	(gnome_cups_printer_resume), (gnome_cups_printer_delete),
+	(gnome_cups_printer_set_default), (gnome_cups_printer_pause_job),
+	(gnome_cups_printer_resume_job), (gnome_cups_printer_cancel_job):
+	* libgnomecups/gnome-cups-printer.h:
+	* libgnomecups/gnome-cups-request.c: (gnome_cups_error_quark),
+	(gnome_cups_response_set_error):
+	* libgnomecups/gnome-cups-request.h:
+	* nautilus-view/nautilus-printers.c: (printer_gone_cb),
+	(handle_error), (pause_cb), (resume_cb), (make_default_cb),
+	(delete_cb):  Begin handling errors with nice little dialogs.  
+	There is still some stuff to be done, but this is most of it.
+
+=== gnome-cups-manager 0.1 ===
+
+2002-11-06  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-manager/gnome-cups-manager.c: (add_to_session),
+	(main): Respawn the manager.
+
+2002-11-05  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-manager/view-queue.c: (cancel_jobs_cb): Implemented. 
+	(setup_menus): Connect the edit menu items.
+	(create_popup_menu): Connect the cancel menu item.
+
+2002-11-05  Dave Camp  <dave@ximian.com>
+
+	Began implementing job pausing/resuming/cancelling.
+	
+	* gnome-cups-manager/gnome-cups-manager.glade:
+	* gnome-cups-manager/view-queue.c: (list_store_set_job),
+	(selection_has_paused_cb), (selection_has_running_cb),
+	(selection_has_selection_cb), (get_menu_sensitivities),
+	(update_menus), (collect_jobs_cb), (pause_jobs_cb),
+	(resume_jobs_cb), (create_popup_menu), (tree_button_press_cb),
+	(tree_button_release_cb), (selection_changed_cb),
+	(setup_queue_tree), (is_default_changed_cb),
+	(attributes_changed_cb), (gnome_cups_manager_view_queue):  Added 
+	a job popup menu, implemented sensitivity on the Edit menu items,
+	implemented the Pause and Resume menu items.
+	* libgnomecups/gnome-cups-printer.h:
+	* libgnomecups/gnome-cups-printer.c:
+	(gnome_cups_printer_pause_job), (gnome_cups_printer_resume_job),
+	(gnome_cups_printer_cancel_job): New functions.
+
+	* libgnomecups/gnome-cups-request.h:
+	* libgnomecups/gnome-cups-request.c:
+	(gnome_cups_request_new_for_job): New function.
+
+2002-11-05  Dave Camp  <dave@ximian.com>
+
+	* gnome-cups-add/add-printer.c (network_location_next): Select the
+	detected printer before going to the detected page.
+
+2002-11-05  Dave Camp  <dave@ximian.com>
+
+	* Begin Changelog

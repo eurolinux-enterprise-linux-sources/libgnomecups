@@ -1,0 +1,66 @@
+# Translation of oc.po to Occitan
+# Occitan translation of libgnomecups.
+# Copyright (C) 2004, 2007 Free Software Foundation, Inc
+# This file is distributed under the same license as the libgnomecups package.
+#
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: oc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-12-27 13:23+0100\n"
+"PO-Revision-Date: 2007-12-23 13:09+0100\n"
+"Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
+"Language-Team: Occitan <ubuntu-l10n-oci@lists.ubuntu.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../libgnomecups/gnome-cups-printer.c:89
+msgid "Ready"
+msgstr "Prèst"
+
+#: ../libgnomecups/gnome-cups-printer.c:90
+#: ../libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "Estampatge"
+
+#: ../libgnomecups/gnome-cups-printer.c:91
+#: ../libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "En pausa"
+
+#: ../libgnomecups/gnome-cups-printer.c:1078
+#: ../libgnomecups/gnome-cups-printer.c:1090
+#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
+#: ../libgnomecups/gnome-cups-queue.c:42
+#: ../libgnomecups/gnome-cups-queue.c:182
+#: ../libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "Desconegut"
+
+#: ../libgnomecups/gnome-cups-printer.c:1097
+#, c-format
+msgid "%s: %s"
+msgstr "%s : %s"
+
+#: ../libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr ""
+
+#: ../libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "Arrestat"
+
+#: ../libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "Anullat"
+
+#: ../libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "Abandonat"
+
+#: ../libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "Terminat"

@@ -1,0 +1,238 @@
+# Turkish translation of libgnomecups.
+# Copyright (C) 2004 THE libgnomecups'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the libgnomecups package.
+# Baris Cicek <baris@teamforce.name.tr>, 2004.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups 0.1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-01-24 01:10+0200\n"
+"PO-Revision-Date: 2004-01-24 03:04+0200\n"
+"Last-Translator: Baris Cicek <baris@teamforce.name.tr>\n"
+"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: libgnomecups/gnome-cups-printer.c:75
+msgid "Ready"
+msgstr "Hazır"
+
+#: libgnomecups/gnome-cups-printer.c:76 libgnomecups/gnome-cups-queue.c:41
+msgid "Printing"
+msgstr "Yazıyor"
+
+#: libgnomecups/gnome-cups-printer.c:77 libgnomecups/gnome-cups-queue.c:40
+msgid "Paused"
+msgstr "Durduruldu"
+
+#: libgnomecups/gnome-cups-printer.c:741 libgnomecups/gnome-cups-printer.c:753
+#: libgnomecups/gnome-cups-queue.c:36 libgnomecups/gnome-cups-queue.c:37
+#: libgnomecups/gnome-cups-queue.c:38 libgnomecups/gnome-cups-queue.c:156
+#: libgnomecups/gnome-cups-queue.c:159
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+#: libgnomecups/gnome-cups-printer.c:760
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: libgnomecups/gnome-cups-queue.c:39
+msgid "Pending"
+msgstr "Beklemede"
+
+#: libgnomecups/gnome-cups-queue.c:42
+msgid "Stopped"
+msgstr "Durduruldu"
+
+#: libgnomecups/gnome-cups-queue.c:43
+msgid "Canceled"
+msgstr "İptal edildi"
+
+#: libgnomecups/gnome-cups-queue.c:44
+msgid "Aborted"
+msgstr "Vazgeçildi"
+
+#: libgnomecups/gnome-cups-queue.c:45
+msgid "Completed"
+msgstr "Tamamlandı"
+
+#: libgnomecups/gnome-cups-request.c:18
+msgid "Success"
+msgstr "Başarılı"
+
+#: libgnomecups/gnome-cups-request.c:19
+msgid "Success, some attributes were ignored"
+msgstr "Başarılı, bazı öznitelikler yoksayıldı"
+
+#: libgnomecups/gnome-cups-request.c:20
+msgid "Success, some attributes confliced"
+msgstr "Başarılı, bazı öznitelikler çakışıyor"
+
+#: libgnomecups/gnome-cups-request.c:21
+msgid "Success, ignored subscriptions"
+msgstr "Başarılı, kayıtlar yoksayıldı"
+
+#: libgnomecups/gnome-cups-request.c:22
+msgid "Success, ignored notifications"
+msgstr "Başarılı, uyarılar yoksayıldı"
+
+#: libgnomecups/gnome-cups-request.c:23
+msgid "Success, too many events"
+msgstr "Başarılı, cok fazla olay"
+
+#: libgnomecups/gnome-cups-request.c:24
+msgid "Success, cancel subscription"
+msgstr "Başarılı, kayıtlar iptal edildi"
+
+#: libgnomecups/gnome-cups-request.c:28
+msgid "Bad request"
+msgstr "Geçersiz istek"
+
+#: libgnomecups/gnome-cups-request.c:29
+msgid "Forbidden"
+msgstr "Yasaklanmış"
+
+#: libgnomecups/gnome-cups-request.c:30
+msgid "The client has not been authenticated"
+msgstr "İstemcilerin kimlikleri doğrulanmadı"
+
+#: libgnomecups/gnome-cups-request.c:31
+msgid "You are not authorized to perform this operation"
+msgstr "Bu işlemi gerçekleştirmek için yetkili değilsiniz"
+
+#: libgnomecups/gnome-cups-request.c:32
+msgid "This operation cannot be completed"
+msgstr "Bu işlem tamamlanamadı"
+
+#: libgnomecups/gnome-cups-request.c:33
+msgid "Timeout"
+msgstr "Zaman aşımı"
+
+#: libgnomecups/gnome-cups-request.c:34
+msgid "The requested file was not found"
+msgstr "İstenen dosya bulunamadı"
+
+#: libgnomecups/gnome-cups-request.c:35
+msgid "The requested resource no longer exists"
+msgstr "İstenen kaynak artık mevcut değil"
+
+#: libgnomecups/gnome-cups-request.c:36
+msgid "The request was too large"
+msgstr "İstek çok büyük"
+
+#: libgnomecups/gnome-cups-request.c:37
+msgid "The request was too long"
+msgstr "İstek çok uzun"
+
+#: libgnomecups/gnome-cups-request.c:38
+msgid "The document format is not supported"
+msgstr "Belge biçimi desteklenmiyor"
+
+#: libgnomecups/gnome-cups-request.c:39
+msgid "The value or attributes in this request are not supported"
+msgstr "Bu istekteki değer veya öznitelikler desteklenmiyor"
+
+#: libgnomecups/gnome-cups-request.c:40
+msgid "The URI scheme is not supported"
+msgstr "URİ şeması desteklenmiyor"
+
+#: libgnomecups/gnome-cups-request.c:41
+msgid "The requested character set is not supported"
+msgstr "İstenilen karakter kümesi desteklenmiyor"
+
+#: libgnomecups/gnome-cups-request.c:42
+msgid "There were conflicting attributes in the request"
+msgstr "İstekte çakışan öznitelikler var"
+
+#: libgnomecups/gnome-cups-request.c:43
+msgid "Compression is not supported"
+msgstr "Sıkıştırma desteklenmiyor"
+
+#: libgnomecups/gnome-cups-request.c:44
+msgid "There was a compression error"
+msgstr "Bir sıkıştırma hatası var"
+
+#: libgnomecups/gnome-cups-request.c:45
+msgid "There was an error in the format of the document"
+msgstr "Belgenin biçiminde bir hata var"
+
+#: libgnomecups/gnome-cups-request.c:46
+msgid "There was an error accessing the document"
+msgstr "Belgeye ulaşırken bir hata oluştu"
+
+#: libgnomecups/gnome-cups-request.c:47
+msgid "Some attributes could not be set"
+msgstr "Bazı öznitelikler ayarlanamadı"
+
+#: libgnomecups/gnome-cups-request.c:48
+msgid "All subscriptions were ignored"
+msgstr "Butun kayıtlar yok saıldı"
+
+#: libgnomecups/gnome-cups-request.c:49
+msgid "Too many subscriptions"
+msgstr "Çok fazla kayıt"
+
+#: libgnomecups/gnome-cups-request.c:50
+msgid "All notifications were ignored."
+msgstr "Butun uyarılar yoksayıldı."
+
+#: libgnomecups/gnome-cups-request.c:51
+msgid "A print support file was not found."
+msgstr "Yazıcı destek dosyası bulunamadı."
+
+#: libgnomecups/gnome-cups-request.c:56
+msgid "Internal server error"
+msgstr "Sistem içi sorun"
+
+#: libgnomecups/gnome-cups-request.c:57
+msgid "Operation not supported"
+msgstr "İşlem desteklenmiyor"
+
+#: libgnomecups/gnome-cups-request.c:58
+msgid "Service unavailable"
+msgstr "Servise ulaşılamıyor"
+
+#: libgnomecups/gnome-cups-request.c:59
+msgid "Version not supported"
+msgstr "Sürüm desteklenmiyor"
+
+#: libgnomecups/gnome-cups-request.c:60
+msgid "Device error"
+msgstr "Aygıt hatası"
+
+#: libgnomecups/gnome-cups-request.c:61
+msgid "Temporary error"
+msgstr "Geçici hata"
+
+#: libgnomecups/gnome-cups-request.c:62
+msgid "The printer is not accepting jobs"
+msgstr "Yazıcı görevleri kabul etmiyor"
+
+#: libgnomecups/gnome-cups-request.c:63
+msgid "The printer is busy"
+msgstr "Yazıcı meşgul"
+
+#: libgnomecups/gnome-cups-request.c:64
+msgid "The job has been canceled"
+msgstr "Görev iptal edildi"
+
+#: libgnomecups/gnome-cups-request.c:65
+msgid "Multiple-document jobs are not supported"
+msgstr "Çoklu belge görevleri desteklenmiyor"
+
+#: libgnomecups/gnome-cups-request.c:66
+msgid "The printer is deactivated"
+msgstr "Yazıcı aktif değil"
+
+#: libgnomecups/gnome-cups-request.c:71
+msgid "Redirected to another site"
+msgstr "Başka bir siteye yönlendirildi"
+
+#: libgnomecups/gnome-cups-request.c:77
+msgid "Unknown error"
+msgstr "Bilinmeyen hata"
+

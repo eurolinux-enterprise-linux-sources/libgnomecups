@@ -1,0 +1,237 @@
+# Ukrainian translation to libgnomecups.
+# Copyright (C) 2004, Free Software Foundation
+# This file is distributed under the same license as the libgnomecups package.
+# Maxim Dziumanenko <mvd@mylinux.com.ua>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-12-14 09:19-0500\n"
+"PO-Revision-Date: 2004-03-16 08:04+0200\n"
+"Last-Translator: Maxim Dziumanenko <mvd@mylinux.com.ua>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: libgnomecups/gnome-cups-printer.c:86
+msgid "Ready"
+msgstr "Готовий"
+
+#: libgnomecups/gnome-cups-printer.c:87 libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "Триває друк"
+
+#: libgnomecups/gnome-cups-printer.c:88 libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "Призупинений"
+
+#: libgnomecups/gnome-cups-printer.c:862 libgnomecups/gnome-cups-printer.c:874
+#: libgnomecups/gnome-cups-queue.c:40 libgnomecups/gnome-cups-queue.c:41
+#: libgnomecups/gnome-cups-queue.c:42 libgnomecups/gnome-cups-queue.c:182
+#: libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "Невідомо"
+
+#: libgnomecups/gnome-cups-printer.c:881
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "В стані очікування"
+
+#: libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "Зупинено"
+
+#: libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "Відмінено"
+
+#: libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "Перервано"
+
+#: libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "Завершено"
+
+#: libgnomecups/gnome-cups-request.c:66
+msgid "Success"
+msgstr "Успішно"
+
+#: libgnomecups/gnome-cups-request.c:67
+msgid "Success, some attributes were ignored"
+msgstr "Успішно, деякі атрибути проігноровані"
+
+#: libgnomecups/gnome-cups-request.c:68
+#, fuzzy
+msgid "Success, some attributes conflicted"
+msgstr "Успішно, деякі атрибути конфліктують"
+
+#: libgnomecups/gnome-cups-request.c:69
+msgid "Success, ignored subscriptions"
+msgstr "Успішно, проігноровано підписки"
+
+#: libgnomecups/gnome-cups-request.c:70
+msgid "Success, ignored notifications"
+msgstr "Успішно проігноровано сповіщення"
+
+#: libgnomecups/gnome-cups-request.c:71
+msgid "Success, too many events"
+msgstr "Успішно, занадто багато подій"
+
+#: libgnomecups/gnome-cups-request.c:72
+msgid "Success, cancel subscription"
+msgstr "Успішно, припинення підписки"
+
+#: libgnomecups/gnome-cups-request.c:76
+msgid "Bad request"
+msgstr "Неправильний запит"
+
+#: libgnomecups/gnome-cups-request.c:77
+msgid "Forbidden"
+msgstr "Заборонено"
+
+#: libgnomecups/gnome-cups-request.c:78
+msgid "The client has not been authenticated"
+msgstr "Клієнт не був автентифікований"
+
+#: libgnomecups/gnome-cups-request.c:79
+msgid "You are not authorized to perform this operation"
+msgstr "У вас немає прав для виконання цієї операції"
+
+#: libgnomecups/gnome-cups-request.c:80
+msgid "This operation cannot be completed"
+msgstr "Операція не може бути завершена"
+
+#: libgnomecups/gnome-cups-request.c:81
+msgid "Timeout"
+msgstr "Час вийшов"
+
+#: libgnomecups/gnome-cups-request.c:82
+msgid "The requested file was not found"
+msgstr "Запитаний файл не існує"
+
+#: libgnomecups/gnome-cups-request.c:83
+msgid "The requested resource no longer exists"
+msgstr "Запитаний ресурс більше не існує"
+
+#: libgnomecups/gnome-cups-request.c:84
+msgid "The request was too large"
+msgstr "Запит був надто великий"
+
+#: libgnomecups/gnome-cups-request.c:85
+msgid "The request was too long"
+msgstr "Запит був надто довгий"
+
+#: libgnomecups/gnome-cups-request.c:86
+msgid "The document format is not supported"
+msgstr "Формат документа не підтримується"
+
+#: libgnomecups/gnome-cups-request.c:87
+msgid "The value or attributes in this request are not supported"
+msgstr "Не підтримувані значення або атрибути у цьому запиті"
+
+#: libgnomecups/gnome-cups-request.c:88
+msgid "The URI scheme is not supported"
+msgstr "Схема URI не підтримується"
+
+#: libgnomecups/gnome-cups-request.c:89
+msgid "The requested character set is not supported"
+msgstr "Запитаний символ не підтримується"
+
+#: libgnomecups/gnome-cups-request.c:90
+msgid "There were conflicting attributes in the request"
+msgstr "Виник конфлікт між атрибутами у запиті"
+
+#: libgnomecups/gnome-cups-request.c:91
+msgid "Compression is not supported"
+msgstr "Стиснення не підтримується"
+
+#: libgnomecups/gnome-cups-request.c:92
+msgid "There was a compression error"
+msgstr "Помилка стиснення"
+
+#: libgnomecups/gnome-cups-request.c:93
+msgid "There was an error in the format of the document"
+msgstr "Помилка у форматі документа"
+
+#: libgnomecups/gnome-cups-request.c:94
+msgid "There was an error accessing the document"
+msgstr "Помилка доступу до документа"
+
+#: libgnomecups/gnome-cups-request.c:95
+msgid "Some attributes could not be set"
+msgstr "Деякі атрибути не були встановлені"
+
+#: libgnomecups/gnome-cups-request.c:96
+msgid "All subscriptions were ignored"
+msgstr "Всі підписки були проігноровані"
+
+#: libgnomecups/gnome-cups-request.c:97
+msgid "Too many subscriptions"
+msgstr "Занадто багато підписок"
+
+#: libgnomecups/gnome-cups-request.c:98
+msgid "All notifications were ignored."
+msgstr "Всі сповіщення були проігноровані."
+
+#: libgnomecups/gnome-cups-request.c:99
+msgid "A print support file was not found."
+msgstr "Не знайдено файл підтримки принтера."
+
+#: libgnomecups/gnome-cups-request.c:104
+msgid "Internal server error"
+msgstr "Внутрішня помилка сервера"
+
+#: libgnomecups/gnome-cups-request.c:105
+msgid "Operation not supported"
+msgstr "Операція не підтримується"
+
+#: libgnomecups/gnome-cups-request.c:106
+msgid "Service unavailable"
+msgstr "Служба відсутня"
+
+#: libgnomecups/gnome-cups-request.c:107
+msgid "Version not supported"
+msgstr "Версія не підтримується"
+
+#: libgnomecups/gnome-cups-request.c:108
+msgid "Device error"
+msgstr "Помилка пристрою"
+
+#: libgnomecups/gnome-cups-request.c:109
+msgid "Temporary error"
+msgstr "Тимчасова помилка"
+
+#: libgnomecups/gnome-cups-request.c:110
+msgid "The printer is not accepting jobs"
+msgstr "Принтер не прийняв завдання"
+
+#: libgnomecups/gnome-cups-request.c:111
+msgid "The printer is busy"
+msgstr "Принтер зайнятий"
+
+#: libgnomecups/gnome-cups-request.c:112
+msgid "The job has been canceled"
+msgstr "Завдання було відмінене"
+
+#: libgnomecups/gnome-cups-request.c:113
+msgid "Multiple-document jobs are not supported"
+msgstr "Завдання, що складаються з декількох документів, не підтримуються"
+
+#: libgnomecups/gnome-cups-request.c:114
+msgid "The printer is deactivated"
+msgstr "Принтерів неактивний"
+
+#: libgnomecups/gnome-cups-request.c:119
+msgid "Redirected to another site"
+msgstr "Перенаправлено на інший сайт"
+
+#: libgnomecups/gnome-cups-request.c:125
+msgid "Unknown error"
+msgstr "Невідома помилка"

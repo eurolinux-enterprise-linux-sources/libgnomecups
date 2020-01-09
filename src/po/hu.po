@@ -1,0 +1,236 @@
+# Hungarian translation of libgnomecups.
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libgnomecups package.
+# Gabor Kelemen <kelemeng@gnome.hu>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-12-14 09:19-0500\n"
+"PO-Revision-Date: 2004-07-18 10:00+0200\n"
+"Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
+"Language-Team: Hungarian <gnome@gnome.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: libgnomecups/gnome-cups-printer.c:86
+msgid "Ready"
+msgstr "Kész"
+
+#: libgnomecups/gnome-cups-printer.c:87 libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "Nyomtatás"
+
+#: libgnomecups/gnome-cups-printer.c:88 libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "Szünetel"
+
+#: libgnomecups/gnome-cups-printer.c:862 libgnomecups/gnome-cups-printer.c:874
+#: libgnomecups/gnome-cups-queue.c:40 libgnomecups/gnome-cups-queue.c:41
+#: libgnomecups/gnome-cups-queue.c:42 libgnomecups/gnome-cups-queue.c:182
+#: libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: libgnomecups/gnome-cups-printer.c:881
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "Folyamatban"
+
+#: libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "Leállítva"
+
+#: libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "Megszakítva"
+
+#: libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "Megszakítva"
+
+#: libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "Befejezve"
+
+#: libgnomecups/gnome-cups-request.c:66
+msgid "Success"
+msgstr "Sikerült"
+
+#: libgnomecups/gnome-cups-request.c:67
+msgid "Success, some attributes were ignored"
+msgstr "Sikerült, néhány attribútum mellőzve lett"
+
+#: libgnomecups/gnome-cups-request.c:68
+msgid "Success, some attributes conflicted"
+msgstr "Sikerült, néhány attribútum ütközött"
+
+#: libgnomecups/gnome-cups-request.c:69
+msgid "Success, ignored subscriptions"
+msgstr "Sikerült, előfizetések mellőzve"
+
+#: libgnomecups/gnome-cups-request.c:70
+msgid "Success, ignored notifications"
+msgstr "Sikerült, figyelmeztetések mellőzve"
+
+#: libgnomecups/gnome-cups-request.c:71
+msgid "Success, too many events"
+msgstr "Sikerült, túl sok esemény"
+
+#: libgnomecups/gnome-cups-request.c:72
+msgid "Success, cancel subscription"
+msgstr "Sikerült, előfizetés felmondva"
+
+#: libgnomecups/gnome-cups-request.c:76
+msgid "Bad request"
+msgstr "Hibás kérés"
+
+#: libgnomecups/gnome-cups-request.c:77
+msgid "Forbidden"
+msgstr "Tiltva"
+
+#: libgnomecups/gnome-cups-request.c:78
+msgid "The client has not been authenticated"
+msgstr "A kliens nincs engedélyezve"
+
+#: libgnomecups/gnome-cups-request.c:79
+msgid "You are not authorized to perform this operation"
+msgstr "Ön nincs felhatalmazva ezen művelet végrehajtására"
+
+#: libgnomecups/gnome-cups-request.c:80
+msgid "This operation cannot be completed"
+msgstr "A művelet nem fejezhető be"
+
+#: libgnomecups/gnome-cups-request.c:81
+msgid "Timeout"
+msgstr "Időtúllépés"
+
+#: libgnomecups/gnome-cups-request.c:82
+msgid "The requested file was not found"
+msgstr "A kért fájl nem található"
+
+#: libgnomecups/gnome-cups-request.c:83
+msgid "The requested resource no longer exists"
+msgstr "A kért erőforrás már nem létezik"
+
+#: libgnomecups/gnome-cups-request.c:84
+msgid "The request was too large"
+msgstr "A kérés túl nagy volt"
+
+#: libgnomecups/gnome-cups-request.c:85
+msgid "The request was too long"
+msgstr "A kérés túl hosszú volt"
+
+#: libgnomecups/gnome-cups-request.c:86
+msgid "The document format is not supported"
+msgstr "A dokumentum formátuma nem támogatott"
+
+#: libgnomecups/gnome-cups-request.c:87
+msgid "The value or attributes in this request are not supported"
+msgstr "Ebben a kérésben az érték vagy az attribútumok nem támogatottak"
+
+#: libgnomecups/gnome-cups-request.c:88
+msgid "The URI scheme is not supported"
+msgstr "Az URI séma nem támogatott"
+
+#: libgnomecups/gnome-cups-request.c:89
+msgid "The requested character set is not supported"
+msgstr "A kért karakterkészlet nem támogatott"
+
+#: libgnomecups/gnome-cups-request.c:90
+msgid "There were conflicting attributes in the request"
+msgstr "A kérésben ütköző attribútumok voltak"
+
+#: libgnomecups/gnome-cups-request.c:91
+msgid "Compression is not supported"
+msgstr "A tömörítés nem támogatott"
+
+#: libgnomecups/gnome-cups-request.c:92
+msgid "There was a compression error"
+msgstr "Tömörítési hiba lépett fel"
+
+#: libgnomecups/gnome-cups-request.c:93
+msgid "There was an error in the format of the document"
+msgstr "Hiba a dokumentum formátumában"
+
+#: libgnomecups/gnome-cups-request.c:94
+msgid "There was an error accessing the document"
+msgstr "Hiba a dokumentum elérése közben"
+
+#: libgnomecups/gnome-cups-request.c:95
+msgid "Some attributes could not be set"
+msgstr "Néhány attribútum nem állítható be"
+
+#: libgnomecups/gnome-cups-request.c:96
+msgid "All subscriptions were ignored"
+msgstr "Minden előfizetés mellőzve lett"
+
+#: libgnomecups/gnome-cups-request.c:97
+msgid "Too many subscriptions"
+msgstr "Túl sok előfizetés"
+
+#: libgnomecups/gnome-cups-request.c:98
+msgid "All notifications were ignored."
+msgstr "Minden figyelmeztetés mellőzve lett."
+
+#: libgnomecups/gnome-cups-request.c:99
+msgid "A print support file was not found."
+msgstr "Nem található nyomtatást támogató fájl"
+
+#: libgnomecups/gnome-cups-request.c:104
+msgid "Internal server error"
+msgstr "Belső kiszolgálóhiba"
+
+#: libgnomecups/gnome-cups-request.c:105
+msgid "Operation not supported"
+msgstr "A művelet nem támogatott"
+
+#: libgnomecups/gnome-cups-request.c:106
+msgid "Service unavailable"
+msgstr "A szolgáltatás nem érhető el"
+
+#: libgnomecups/gnome-cups-request.c:107
+msgid "Version not supported"
+msgstr "A verzió nem támogatott"
+
+#: libgnomecups/gnome-cups-request.c:108
+msgid "Device error"
+msgstr "Eszközhiba"
+
+#: libgnomecups/gnome-cups-request.c:109
+msgid "Temporary error"
+msgstr "Átmeneti hiba"
+
+#: libgnomecups/gnome-cups-request.c:110
+msgid "The printer is not accepting jobs"
+msgstr "A nyomtató nem fogad el feladatokat"
+
+#: libgnomecups/gnome-cups-request.c:111
+msgid "The printer is busy"
+msgstr "A nyomtató foglalt"
+
+#: libgnomecups/gnome-cups-request.c:112
+msgid "The job has been canceled"
+msgstr "A feladat vissza lett vonva"
+
+#: libgnomecups/gnome-cups-request.c:113
+msgid "Multiple-document jobs are not supported"
+msgstr "A többdokumentumos feladatok nem támogatottak"
+
+#: libgnomecups/gnome-cups-request.c:114
+msgid "The printer is deactivated"
+msgstr "A nyomtató ki van kapcsolva"
+
+#: libgnomecups/gnome-cups-request.c:119
+msgid "Redirected to another site"
+msgstr "Átirányítva más helyre"
+
+#: libgnomecups/gnome-cups-request.c:125
+msgid "Unknown error"
+msgstr "Ismeretlen hiba"

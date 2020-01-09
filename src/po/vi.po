@@ -1,0 +1,65 @@
+# Vietnamese translation for LibGnomeCups.
+# Copyright © 2005 Gnome i18n Project for Vietnamese.
+# Clytie Siddall <clytie@riverland.net.au>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups 0.2.0 Gnome HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-08-14 12:20+0000\n"
+"PO-Revision-Date: 2005-08-15 23:00+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: LocFactoryEditor 1.2.2\n"
+
+#: ../libgnomecups/gnome-cups-printer.c:88
+msgid "Ready"
+msgstr "Sẵn sàng"
+
+#: ../libgnomecups/gnome-cups-printer.c:89
+#: ../libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "Đang in"
+
+#: ../libgnomecups/gnome-cups-printer.c:90
+#: ../libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "Bị tạm dừng"
+
+#: ../libgnomecups/gnome-cups-printer.c:1024
+#: ../libgnomecups/gnome-cups-printer.c:1036
+#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
+#: ../libgnomecups/gnome-cups-queue.c:42
+#: ../libgnomecups/gnome-cups-queue.c:182
+#: ../libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "Không biết"
+
+#: ../libgnomecups/gnome-cups-printer.c:1043
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "Treo"
+
+#: ../libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "Bị dừng"
+
+#: ../libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "Bị thôi"
+
+#: ../libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "Bị hủy bỏ"
+
+#: ../libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "Hoàn thành"

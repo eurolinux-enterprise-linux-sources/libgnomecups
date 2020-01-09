@@ -1,0 +1,203 @@
+# Italian translation for libgnomecups.
+# Copyright (C) 2004 Free Software Foundation, Inc
+# This file is distributed under the same license as the libgnomecups package.
+# Luca Ferretti <elle.uca@libero.it>, 2004-2006.
+#
+#
+# Note: gnome-cups-queue   job di stampa, quindi maschili.
+#       gnome-cups-printer stampante, quindi femminile
+#       un po' di problemi per unknow, al solito....
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-26 12:42+0100\n"
+"PO-Revision-Date: 2006-02-26 12:45+0100\n"
+"Last-Translator: Luca Ferretti <elle.uca@libero.it>\n"
+"Language-Team: Italian <tp@lists.linux.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libgnomecups/gnome-cups-printer.c:88
+msgid "Ready"
+msgstr "Pronta"
+
+#: ../libgnomecups/gnome-cups-printer.c:89
+#: ../libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "In stampa"
+
+#: ../libgnomecups/gnome-cups-printer.c:90
+#: ../libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "In pausa"
+
+#: ../libgnomecups/gnome-cups-printer.c:1024
+#: ../libgnomecups/gnome-cups-printer.c:1036
+#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
+#: ../libgnomecups/gnome-cups-queue.c:42
+#: ../libgnomecups/gnome-cups-queue.c:182
+#: ../libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: ../libgnomecups/gnome-cups-printer.c:1043
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "In attesa"
+
+#: ../libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "Fermato"
+
+#: ../libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "Annullato"
+
+#: ../libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "Abortito"
+
+#: ../libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "Completato"
+
+#~ msgid "Success"
+#~ msgstr "Riuscito"
+
+#~ msgid "Success, some attributes were ignored"
+#~ msgstr "Riuscito, alcuni attributi sono stati ignorati"
+
+#, fuzzy
+#~ msgid "Success, some attributes conflicted"
+#~ msgstr "Riuscito, alcuni attributi creano conflitto"
+
+# qualcuno sa cosa sono le sottoscrizioni in CUPS?
+#~ msgid "Success, ignored subscriptions"
+#~ msgstr "Riuscito, sottoscrizioni ignorate"
+
+#~ msgid "Success, ignored notifications"
+#~ msgstr "Riuscito, notifiche ignorate"
+
+#~ msgid "Success, too many events"
+#~ msgstr "Riuscito, troppi eventi"
+
+#~ msgid "Success, cancel subscription"
+#~ msgstr "Riuscito, sottoscrizione annullata"
+
+#~ msgid "Bad request"
+#~ msgstr "Richiesta errata"
+
+#~ msgid "Forbidden"
+#~ msgstr "Proibito"
+
+#~ msgid "The client has not been authenticated"
+#~ msgstr "Il client non è stato autenticato"
+
+#~ msgid "You are not authorized to perform this operation"
+#~ msgstr "Non si è autorizzati ad eseguire questa operazione"
+
+#~ msgid "This operation cannot be completed"
+#~ msgstr "Questa operazione non può essere completata"
+
+#~ msgid "Timeout"
+#~ msgstr "Tempo scaduto"
+
+#~ msgid "The requested file was not found"
+#~ msgstr "Il file richiesto non è stato trovato"
+
+#~ msgid "The requested resource no longer exists"
+#~ msgstr "La risorsa richiesta non esiste più"
+
+#~ msgid "The request was too large"
+#~ msgstr "La richiesta era troppo larga"
+
+#~ msgid "The request was too long"
+#~ msgstr "La richiesta era troppo lunga"
+
+#~ msgid "The document format is not supported"
+#~ msgstr "Il formato del documento non è supportato"
+
+#~ msgid "The value or attributes in this request are not supported"
+#~ msgstr "Il valore o gli attributi di questa richiesta non sono supportati"
+
+#~ msgid "The URI scheme is not supported"
+#~ msgstr "Lo schema dell'URI non è supportato"
+
+#~ msgid "The requested character set is not supported"
+#~ msgstr "L'insieme di caratteri richiesto non è supportato"
+
+#~ msgid "There were conflicting attributes in the request"
+#~ msgstr "La richiesta conteneva attributi in conflitto"
+
+#~ msgid "Compression is not supported"
+#~ msgstr "Compressione non supportata"
+
+#~ msgid "There was a compression error"
+#~ msgstr "Errore di compressione"
+
+#~ msgid "There was an error in the format of the document"
+#~ msgstr "Errore nel formato del documento"
+
+#~ msgid "There was an error accessing the document"
+#~ msgstr "Errore nell'accedere al documento"
+
+#~ msgid "Some attributes could not be set"
+#~ msgstr "Alcuni attributi potrebbero non essere impostati"
+
+#~ msgid "All subscriptions were ignored"
+#~ msgstr "Tutte le sottoscrizioni sono state ignorate"
+
+#~ msgid "Too many subscriptions"
+#~ msgstr "Troppe sottoscrizioni"
+
+#~ msgid "All notifications were ignored."
+#~ msgstr "Tutte le notifiche sono state ignorate."
+
+#~ msgid "A print support file was not found."
+#~ msgstr "Non è stato trovato alcun file di supporto per la stampa."
+
+#~ msgid "Internal server error"
+#~ msgstr "Errore interno del server"
+
+#~ msgid "Operation not supported"
+#~ msgstr "Operazione non supportata"
+
+#~ msgid "Service unavailable"
+#~ msgstr "Servizio non disponibile"
+
+#~ msgid "Version not supported"
+#~ msgstr "Versione non supportata"
+
+#~ msgid "Device error"
+#~ msgstr "Errore di device"
+
+#~ msgid "Temporary error"
+#~ msgstr "Errore temporaneo"
+
+#~ msgid "The printer is not accepting jobs"
+#~ msgstr "La stampante non accetta lavori al momento"
+
+#~ msgid "The printer is busy"
+#~ msgstr "La stampante è occupata"
+
+#~ msgid "The job has been canceled"
+#~ msgstr "Il lavoro è stato annullato"
+
+#~ msgid "Multiple-document jobs are not supported"
+#~ msgstr "Lavori multi-documento non sono supportati"
+
+#~ msgid "The printer is deactivated"
+#~ msgstr "La stampante è disattivata"
+
+#~ msgid "Redirected to another site"
+#~ msgstr "Rediretto ad un altro sito"
+
+#~ msgid "Unknown error"
+#~ msgstr "Errore sconosciuto"

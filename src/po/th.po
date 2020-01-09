@@ -1,0 +1,66 @@
+# Thai translation of libgnomecups.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libgnomecups package.
+# Isriya Paireepairit <markpeak@gmail.com>.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups 0.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-07-24 06:39+0000\n"
+"PO-Revision-Date: 2005-07-25 11:37+0700\n"
+"Last-Translator: Isriya Paireepairit <markpeak@gmail.com>\n"
+"Language-Team: Thai <l10n@opentle.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: libgnomecups/gnome-cups-printer.c:88
+msgid "Ready"
+msgstr "พร้อม"
+
+#: libgnomecups/gnome-cups-printer.c:89
+#: libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "กำลังพิมพ์"
+
+#: libgnomecups/gnome-cups-printer.c:90
+#: libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "หยุดชั่วขณะ"
+
+#: libgnomecups/gnome-cups-printer.c:1024
+#: libgnomecups/gnome-cups-printer.c:1036
+#: libgnomecups/gnome-cups-queue.c:40 libgnomecups/gnome-cups-queue.c:41
+#: libgnomecups/gnome-cups-queue.c:42
+#: libgnomecups/gnome-cups-queue.c:182
+#: libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "ไม่มีข้อมูล"
+
+#: libgnomecups/gnome-cups-printer.c:1043
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "กำลังรอ"
+
+#: libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "หยุด"
+
+#: libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "ยกเลิก"
+
+#: libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "ล้มเหลว"
+
+#: libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "เสร็จ"
+

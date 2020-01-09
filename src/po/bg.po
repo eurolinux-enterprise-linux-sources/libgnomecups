@@ -1,0 +1,66 @@
+# Bulgarian translation of libgnomecups.
+# Copyright (C) 2005 THE libgnomecups'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the libgnomecups package.
+# Vladimir "Kaladan" Petkov <vpetkov@i-space.org>, 2005.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-07-26 10:35+0300\n"
+"PO-Revision-Date: 2005-07-26 10:35+0300\n"
+"Last-Translator: Vladimir \"Kaladan\" Petkov <vpetkov@i-space.org>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../libgnomecups/gnome-cups-printer.c:88
+msgid "Ready"
+msgstr "Готово"
+
+#: ../libgnomecups/gnome-cups-printer.c:89
+#: ../libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "Печатане"
+
+#: ../libgnomecups/gnome-cups-printer.c:90
+#: ../libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "Паузирано"
+
+#: ../libgnomecups/gnome-cups-printer.c:1024
+#: ../libgnomecups/gnome-cups-printer.c:1036
+#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
+#: ../libgnomecups/gnome-cups-queue.c:42
+#: ../libgnomecups/gnome-cups-queue.c:182
+#: ../libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: ../libgnomecups/gnome-cups-printer.c:1043
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "Изчакване"
+
+#: ../libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "Спряно"
+
+#: ../libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "Отказано"
+
+#: ../libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "Прекъснато"
+
+#: ../libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "Завършено"

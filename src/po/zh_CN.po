@@ -1,0 +1,199 @@
+# translation of libgnomecups.HEAD.po to
+# translation of libgnomecups.HEAD.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# iceco <rainflymoon@163.com>, 2003
+# QAed by fundawang@linux.net.cn, 2004
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-07-10 18:39+0800\n"
+"PO-Revision-Date: 2004-01-14 16:55+0000\n"
+"Last-Translator: iceco <rainflymoon@163.com>\n"
+"Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.1\n"
+
+#: ../libgnomecups/gnome-cups-printer.c:88
+msgid "Ready"
+msgstr "就绪"
+
+#: ../libgnomecups/gnome-cups-printer.c:89
+#: ../libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "打印中"
+
+#: ../libgnomecups/gnome-cups-printer.c:90
+#: ../libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "已暂停"
+
+#: ../libgnomecups/gnome-cups-printer.c:1024
+#: ../libgnomecups/gnome-cups-printer.c:1036
+#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
+#: ../libgnomecups/gnome-cups-queue.c:42
+#: ../libgnomecups/gnome-cups-queue.c:182
+#: ../libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "未知"
+
+#: ../libgnomecups/gnome-cups-printer.c:1043
+#, c-format
+msgid "%s: %s"
+msgstr "%s：%s"
+
+#: ../libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "推后"
+
+#: ../libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "已停止"
+
+#: ../libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "已取消"
+
+#: ../libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "已中止"
+
+#: ../libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "已完成"
+
+#~ msgid "Success"
+#~ msgstr "成功"
+
+#~ msgid "Success, some attributes were ignored"
+#~ msgstr "成功，有些属性被忽略"
+
+#~ msgid "Success, some attributes conflicted"
+#~ msgstr "成功，有些属性有冲突"
+
+#~ msgid "Success, ignored subscriptions"
+#~ msgstr "成功，忽略订阅"
+
+#~ msgid "Success, ignored notifications"
+#~ msgstr "成功，忽略通告"
+
+#~ msgid "Success, too many events"
+#~ msgstr "成功，太多事件"
+
+#~ msgid "Success, cancel subscription"
+#~ msgstr "成功，取消订阅"
+
+#~ msgid "Bad request"
+#~ msgstr "无效的请求"
+
+#~ msgid "Forbidden"
+#~ msgstr "被禁止"
+
+#~ msgid "The client has not been authenticated"
+#~ msgstr "客户端未被认证"
+
+#~ msgid "You are not authorized to perform this operation"
+#~ msgstr "你未被授权执行该操作"
+
+#~ msgid "This operation cannot be completed"
+#~ msgstr "该操作不能完成"
+
+#~ msgid "Timeout"
+#~ msgstr "超时"
+
+#~ msgid "The requested file was not found"
+#~ msgstr "找不到被请求的文件"
+
+#~ msgid "The requested resource no longer exists"
+#~ msgstr "被请求的资源已不存在"
+
+#~ msgid "The request was too large"
+#~ msgstr "请求的超过大小"
+
+#~ msgid "The request was too long"
+#~ msgstr "请求的超过长度"
+
+#~ msgid "The document format is not supported"
+#~ msgstr "该文档的格式未被支持"
+
+#~ msgid "The value or attributes in this request are not supported"
+#~ msgstr "请求的值或属性未被支持"
+
+#~ msgid "The URI scheme is not supported"
+#~ msgstr "该 URI 方案未被支持"
+
+#~ msgid "The requested character set is not supported"
+#~ msgstr "请求的字符集未被支持"
+
+#~ msgid "There were conflicting attributes in the request"
+#~ msgstr "该请求中有冲突的属性"
+
+#~ msgid "Compression is not supported"
+#~ msgstr "压缩未被支持"
+
+#~ msgid "There was a compression error"
+#~ msgstr "出现一个压缩错误"
+
+#~ msgid "There was an error in the format of the document"
+#~ msgstr "该文档的格式中出现一个错误"
+
+#~ msgid "There was an error accessing the document"
+#~ msgstr "访问该文档时出现一个错误"
+
+#~ msgid "Some attributes could not be set"
+#~ msgstr "有些属性不能设置"
+
+#~ msgid "All subscriptions were ignored"
+#~ msgstr "所有的订阅被忽略"
+
+#~ msgid "Too many subscriptions"
+#~ msgstr "太多订阅"
+
+#~ msgid "All notifications were ignored."
+#~ msgstr "所有的通告被忽略。"
+
+#~ msgid "A print support file was not found."
+#~ msgstr "找不到打印支持文件。"
+
+#~ msgid "Internal server error"
+#~ msgstr "内部服务器出错"
+
+#~ msgid "Operation not supported"
+#~ msgstr "未被支持的操作"
+
+#~ msgid "Service unavailable"
+#~ msgstr "无效的服务"
+
+#~ msgid "Version not supported"
+#~ msgstr "未被支持的版本"
+
+#~ msgid "Device error"
+#~ msgstr "设备出错"
+
+#~ msgid "Temporary error"
+#~ msgstr "临时错误"
+
+#~ msgid "The printer is not accepting jobs"
+#~ msgstr "打印机未接受任务"
+
+#~ msgid "The printer is busy"
+#~ msgstr "打印机忙碌"
+
+#~ msgid "The job has been canceled"
+#~ msgstr "任务被取消"
+
+#~ msgid "Multiple-document jobs are not supported"
+#~ msgstr "多文档任务未被支持"
+
+#~ msgid "The printer is deactivated"
+#~ msgstr "打印机失效"
+
+#~ msgid "Redirected to another site"
+#~ msgstr "重定向到另一地点"
+
+#~ msgid "Unknown error"
+#~ msgstr "未知的错误"

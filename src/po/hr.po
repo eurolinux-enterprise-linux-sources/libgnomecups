@@ -1,0 +1,236 @@
+# Translation of libgnomecups to Croatiann
+# Copyright (C) Croatiann team
+# Translators: Automatski Prijevod <>,pr pr <delacko@192.168.0.1>,Robert Sedak <robert.sedak@sk.tel.hr>,
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups 0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-12-14 09:19-0500\n"
+"PO-Revision-Date: 2004-03-20 14:59+CET\n"
+"Last-Translator: auto\n"
+"Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: TransDict server\n"
+
+#: libgnomecups/gnome-cups-printer.c:86
+msgid "Ready"
+msgstr "Spreman"
+
+#: libgnomecups/gnome-cups-printer.c:87 libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "Ispisivanje"
+
+#: libgnomecups/gnome-cups-printer.c:88 libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "Pauzirano"
+
+#: libgnomecups/gnome-cups-printer.c:862 libgnomecups/gnome-cups-printer.c:874
+#: libgnomecups/gnome-cups-queue.c:40 libgnomecups/gnome-cups-queue.c:41
+#: libgnomecups/gnome-cups-queue.c:42 libgnomecups/gnome-cups-queue.c:182
+#: libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: libgnomecups/gnome-cups-printer.c:881
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "U toku"
+
+#: libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "Zaustavljen"
+
+#: libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "Otkazano"
+
+#: libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "Otkazano"
+
+#: libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "Završeno"
+
+#: libgnomecups/gnome-cups-request.c:66
+msgid "Success"
+msgstr "Uspjeh"
+
+#: libgnomecups/gnome-cups-request.c:67
+msgid "Success, some attributes were ignored"
+msgstr "Uspijeh, neka obilježja su zanemarena"
+
+#: libgnomecups/gnome-cups-request.c:68
+#, fuzzy
+msgid "Success, some attributes conflicted"
+msgstr "Uspijeh, neka obilježja su u sukobu"
+
+#: libgnomecups/gnome-cups-request.c:69
+msgid "Success, ignored subscriptions"
+msgstr "Uspijeh, zanemareni su potpisi"
+
+#: libgnomecups/gnome-cups-request.c:70
+msgid "Success, ignored notifications"
+msgstr "Uspijeh, zanemarene su obavijesti"
+
+#: libgnomecups/gnome-cups-request.c:71
+msgid "Success, too many events"
+msgstr "Uspijeh, previše događaja"
+
+#: libgnomecups/gnome-cups-request.c:72
+msgid "Success, cancel subscription"
+msgstr "Uspijeh, prekini potpisivanje"
+
+#: libgnomecups/gnome-cups-request.c:76
+msgid "Bad request"
+msgstr "Loš zahtjev"
+
+#: libgnomecups/gnome-cups-request.c:77
+msgid "Forbidden"
+msgstr "Zabranjeno"
+
+#: libgnomecups/gnome-cups-request.c:78
+msgid "The client has not been authenticated"
+msgstr "Klijen nije provjeren"
+
+#: libgnomecups/gnome-cups-request.c:79
+msgid "You are not authorized to perform this operation"
+msgstr "Niste ovlašteni za izvođenje ovog postupka"
+
+#: libgnomecups/gnome-cups-request.c:80
+msgid "This operation cannot be completed"
+msgstr "Ovaj postupak ne može biti završen"
+
+#: libgnomecups/gnome-cups-request.c:81
+msgid "Timeout"
+msgstr "Prekoračenje vremena"
+
+#: libgnomecups/gnome-cups-request.c:82
+msgid "The requested file was not found"
+msgstr "Nije nađena zahtijevana datoteka"
+
+#: libgnomecups/gnome-cups-request.c:83
+msgid "The requested resource no longer exists"
+msgstr "Više ne postoji zahtijevani izvor"
+
+#: libgnomecups/gnome-cups-request.c:84
+msgid "The request was too large"
+msgstr "Zahtijev je bio preveliki"
+
+#: libgnomecups/gnome-cups-request.c:85
+msgid "The request was too long"
+msgstr "Zahtijev je bio predugačak"
+
+#: libgnomecups/gnome-cups-request.c:86
+msgid "The document format is not supported"
+msgstr "Nije podržan oblik zapisivanja dokumenta"
+
+#: libgnomecups/gnome-cups-request.c:87
+msgid "The value or attributes in this request are not supported"
+msgstr "Nisu podržane vrijednost ili obilježja u ovom zahtijevu"
+
+#: libgnomecups/gnome-cups-request.c:88
+msgid "The URI scheme is not supported"
+msgstr "Nije podržana shema URI-a"
+
+#: libgnomecups/gnome-cups-request.c:89
+msgid "The requested character set is not supported"
+msgstr "Nije podržan zahtijevan znak"
+
+#: libgnomecups/gnome-cups-request.c:90
+msgid "There were conflicting attributes in the request"
+msgstr "U zahtijevu su se dogodila oblježja u sukobu"
+
+#: libgnomecups/gnome-cups-request.c:91
+msgid "Compression is not supported"
+msgstr "Sažimanje nije podržano"
+
+#: libgnomecups/gnome-cups-request.c:92
+msgid "There was a compression error"
+msgstr "Dogodila se greška kod sažimanja"
+
+#: libgnomecups/gnome-cups-request.c:93
+msgid "There was an error in the format of the document"
+msgstr "Dogodila se greška u obliku dokumenta"
+
+#: libgnomecups/gnome-cups-request.c:94
+msgid "There was an error accessing the document"
+msgstr "Dogodila se greška kod pristupa dokumentu"
+
+#: libgnomecups/gnome-cups-request.c:95
+msgid "Some attributes could not be set"
+msgstr "Ne mogu se postaviti neka obilježja"
+
+#: libgnomecups/gnome-cups-request.c:96
+msgid "All subscriptions were ignored"
+msgstr "Zanemaruju se svi potpisi."
+
+#: libgnomecups/gnome-cups-request.c:97
+msgid "Too many subscriptions"
+msgstr "Previše potpisivanja"
+
+#: libgnomecups/gnome-cups-request.c:98
+msgid "All notifications were ignored."
+msgstr "Zanemaruju se sve obavijesti."
+
+#: libgnomecups/gnome-cups-request.c:99
+msgid "A print support file was not found."
+msgstr "Nije nađena datoteka za podršku ispisa."
+
+#: libgnomecups/gnome-cups-request.c:104
+msgid "Internal server error"
+msgstr "Interna greška poslužitelja"
+
+#: libgnomecups/gnome-cups-request.c:105
+msgid "Operation not supported"
+msgstr "Operacija nije podržana"
+
+#: libgnomecups/gnome-cups-request.c:106
+msgid "Service unavailable"
+msgstr "Nedostupan servis"
+
+#: libgnomecups/gnome-cups-request.c:107
+msgid "Version not supported"
+msgstr "Iničica nije podržana"
+
+#: libgnomecups/gnome-cups-request.c:108
+msgid "Device error"
+msgstr "Greška uređaja"
+
+#: libgnomecups/gnome-cups-request.c:109
+msgid "Temporary error"
+msgstr "Privremena greška"
+
+#: libgnomecups/gnome-cups-request.c:110
+msgid "The printer is not accepting jobs"
+msgstr "Pisač ne prihvaća zadatke"
+
+#: libgnomecups/gnome-cups-request.c:111
+msgid "The printer is busy"
+msgstr "Pisač je zauzet"
+
+#: libgnomecups/gnome-cups-request.c:112
+msgid "The job has been canceled"
+msgstr "Zadatak je prekinut"
+
+#: libgnomecups/gnome-cups-request.c:113
+msgid "Multiple-document jobs are not supported"
+msgstr "Nisu podržane radnje s višestrukim dokumentima."
+
+#: libgnomecups/gnome-cups-request.c:114
+msgid "The printer is deactivated"
+msgstr "Pisač je isključen"
+
+#: libgnomecups/gnome-cups-request.c:119
+msgid "Redirected to another site"
+msgstr "Preusmjereno na drugo računalo"
+
+#: libgnomecups/gnome-cups-request.c:125
+msgid "Unknown error"
+msgstr "Nepoznata greška"

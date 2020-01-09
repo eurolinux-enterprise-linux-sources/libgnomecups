@@ -1,0 +1,235 @@
+# Norwegian translation of libgnomecups.
+# Copyright (C) 1999-2004 Free Software Foundation, Inc.
+# Kjartan Maraas <kmaraas@gnome.org>, 1999-2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-12-14 09:19-0500\n"
+"PO-Revision-Date: 2004-08-19 00:48+0200\n"
+"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
+"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: libgnomecups/gnome-cups-printer.c:86
+msgid "Ready"
+msgstr "Klar"
+
+#: libgnomecups/gnome-cups-printer.c:87 libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "Skriver ut"
+
+#: libgnomecups/gnome-cups-printer.c:88 libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "Pause"
+
+#: libgnomecups/gnome-cups-printer.c:862 libgnomecups/gnome-cups-printer.c:874
+#: libgnomecups/gnome-cups-queue.c:40 libgnomecups/gnome-cups-queue.c:41
+#: libgnomecups/gnome-cups-queue.c:42 libgnomecups/gnome-cups-queue.c:182
+#: libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "Ukjent"
+
+#: libgnomecups/gnome-cups-printer.c:881
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "På hold"
+
+#: libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "Stoppet"
+
+#: libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "Avbrutt"
+
+#: libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "Avbrutt"
+
+#: libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "Fullført"
+
+#: libgnomecups/gnome-cups-request.c:66
+msgid "Success"
+msgstr "Suksess"
+
+#: libgnomecups/gnome-cups-request.c:67
+msgid "Success, some attributes were ignored"
+msgstr "Suksess, men noen attributter ble oversett"
+
+#: libgnomecups/gnome-cups-request.c:68
+msgid "Success, some attributes conflicted"
+msgstr "Suksess, men noen attributter er i konflikt med hverandre"
+
+#: libgnomecups/gnome-cups-request.c:69
+msgid "Success, ignored subscriptions"
+msgstr "Suksess, men overså abonnement"
+
+#: libgnomecups/gnome-cups-request.c:70
+msgid "Success, ignored notifications"
+msgstr "Suksess, men overså meldinger"
+
+#: libgnomecups/gnome-cups-request.c:71
+msgid "Success, too many events"
+msgstr "Suksess, for mange hendelser"
+
+#: libgnomecups/gnome-cups-request.c:72
+msgid "Success, cancel subscription"
+msgstr "Suksess, avbryt abonnement"
+
+#: libgnomecups/gnome-cups-request.c:76
+msgid "Bad request"
+msgstr "Ugyldig forespørsel"
+
+#: libgnomecups/gnome-cups-request.c:77
+msgid "Forbidden"
+msgstr "Forbudt"
+
+#: libgnomecups/gnome-cups-request.c:78
+msgid "The client has not been authenticated"
+msgstr "Klienten er ikke autentisert"
+
+#: libgnomecups/gnome-cups-request.c:79
+msgid "You are not authorized to perform this operation"
+msgstr "Du har ikke rettigheter til å utføre denne operasjonen"
+
+#: libgnomecups/gnome-cups-request.c:80
+msgid "This operation cannot be completed"
+msgstr "Denne operasjonen kan ikke fullføres"
+
+#: libgnomecups/gnome-cups-request.c:81
+msgid "Timeout"
+msgstr "Tidsavbrudd"
+
+#: libgnomecups/gnome-cups-request.c:82
+msgid "The requested file was not found"
+msgstr "Etterspurt fil ble ikke funnet"
+
+#: libgnomecups/gnome-cups-request.c:83
+msgid "The requested resource no longer exists"
+msgstr "Etterspurt ressurs eksisterer ikke lenger"
+
+#: libgnomecups/gnome-cups-request.c:84
+msgid "The request was too large"
+msgstr "Forespørselen var for stor"
+
+#: libgnomecups/gnome-cups-request.c:85
+msgid "The request was too long"
+msgstr "Forespørselen var for lang"
+
+#: libgnomecups/gnome-cups-request.c:86
+msgid "The document format is not supported"
+msgstr "Dokumentformatet er ikke støttet"
+
+#: libgnomecups/gnome-cups-request.c:87
+msgid "The value or attributes in this request are not supported"
+msgstr "Verdien eller attributtene i denne forespørselen er ikke støttet"
+
+#: libgnomecups/gnome-cups-request.c:88
+msgid "The URI scheme is not supported"
+msgstr "URI-schema er ikke støttet"
+
+#: libgnomecups/gnome-cups-request.c:89
+msgid "The requested character set is not supported"
+msgstr "Etterspurt tegnsett er ikke støttet"
+
+#: libgnomecups/gnome-cups-request.c:90
+msgid "There were conflicting attributes in the request"
+msgstr "Forespørselen inneholdt attributter i konflikt med hverandre"
+
+#: libgnomecups/gnome-cups-request.c:91
+msgid "Compression is not supported"
+msgstr "Kompimering er ikke støttet"
+
+#: libgnomecups/gnome-cups-request.c:92
+msgid "There was a compression error"
+msgstr "En feil oppsto under komprimering"
+
+#: libgnomecups/gnome-cups-request.c:93
+msgid "There was an error in the format of the document"
+msgstr "Det var en feil i dokumentformatet"
+
+#: libgnomecups/gnome-cups-request.c:94
+msgid "There was an error accessing the document"
+msgstr "Det oppsto en feil ved aksess til dokumentet"
+
+#: libgnomecups/gnome-cups-request.c:95
+msgid "Some attributes could not be set"
+msgstr "Noen attributter kunne ikke settes"
+
+#: libgnomecups/gnome-cups-request.c:96
+msgid "All subscriptions were ignored"
+msgstr "Alle abonnement ble oversett"
+
+#: libgnomecups/gnome-cups-request.c:97
+msgid "Too many subscriptions"
+msgstr "For mange abonnement"
+
+#: libgnomecups/gnome-cups-request.c:98
+msgid "All notifications were ignored."
+msgstr "Alle varsel ble oversett"
+
+#: libgnomecups/gnome-cups-request.c:99
+msgid "A print support file was not found."
+msgstr "Ingen fil med informasjon om utskriftsstøtte ble funnet"
+
+#: libgnomecups/gnome-cups-request.c:104
+msgid "Internal server error"
+msgstr "Intern feil i tjeneren"
+
+#: libgnomecups/gnome-cups-request.c:105
+msgid "Operation not supported"
+msgstr "Operasjonen er ikke støttet"
+
+#: libgnomecups/gnome-cups-request.c:106
+msgid "Service unavailable"
+msgstr "Tjenesten ikke tilgjengelig"
+
+#: libgnomecups/gnome-cups-request.c:107
+msgid "Version not supported"
+msgstr "Versjon ikke støttet"
+
+#: libgnomecups/gnome-cups-request.c:108
+msgid "Device error"
+msgstr "Feil ved enhet"
+
+#: libgnomecups/gnome-cups-request.c:109
+msgid "Temporary error"
+msgstr "Midlertidig feil"
+
+#: libgnomecups/gnome-cups-request.c:110
+msgid "The printer is not accepting jobs"
+msgstr "Skriveren godtar ikke jobber"
+
+#: libgnomecups/gnome-cups-request.c:111
+msgid "The printer is busy"
+msgstr "Skriveren er opptatt"
+
+#: libgnomecups/gnome-cups-request.c:112
+msgid "The job has been canceled"
+msgstr "Jobben er avbrutt"
+
+#: libgnomecups/gnome-cups-request.c:113
+msgid "Multiple-document jobs are not supported"
+msgstr "Jobber med flere dokumenter er ikke støttet"
+
+#: libgnomecups/gnome-cups-request.c:114
+msgid "The printer is deactivated"
+msgstr "Skriveren er deaktivert"
+
+#: libgnomecups/gnome-cups-request.c:119
+msgid "Redirected to another site"
+msgstr "Videresendt til en annen server"
+
+#: libgnomecups/gnome-cups-request.c:125
+msgid "Unknown error"
+msgstr "Ukjent feil"

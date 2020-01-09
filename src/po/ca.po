@@ -1,0 +1,237 @@
+# Catalan translation of libgnomecups by Softcatalà
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libgnomecups package.
+# Xavier Conde Rueda <xaviconde@eresmas.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-12-14 09:19-0500\n"
+"PO-Revision-Date: 2004-01-21 18:23+0100\n"
+"Last-Translator: Xavier Conde Rueda <xaviconde@eresmas.com>\n"
+"Language-Team: Catalan <tradgnome@softcatala.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: libgnomecups/gnome-cups-printer.c:86
+msgid "Ready"
+msgstr "Preparada"
+
+#: libgnomecups/gnome-cups-printer.c:87 libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "S'està imprimint"
+
+#: libgnomecups/gnome-cups-printer.c:88 libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "En pausa"
+
+#: libgnomecups/gnome-cups-printer.c:862 libgnomecups/gnome-cups-printer.c:874
+#: libgnomecups/gnome-cups-queue.c:40 libgnomecups/gnome-cups-queue.c:41
+#: libgnomecups/gnome-cups-queue.c:42 libgnomecups/gnome-cups-queue.c:182
+#: libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "Desconegut"
+
+#: libgnomecups/gnome-cups-printer.c:881
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "Pendent"
+
+#: libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "Aturat"
+
+#: libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "Cancel·lat"
+
+#: libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "Anul·lat"
+
+#: libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "Completat"
+
+#: libgnomecups/gnome-cups-request.c:66
+msgid "Success"
+msgstr "Correcte"
+
+#: libgnomecups/gnome-cups-request.c:67
+msgid "Success, some attributes were ignored"
+msgstr "Correcte, s'ha ignorat alguns atributs"
+
+#: libgnomecups/gnome-cups-request.c:68
+#, fuzzy
+msgid "Success, some attributes conflicted"
+msgstr "Correcte, alguns atributs en conflicte"
+
+#: libgnomecups/gnome-cups-request.c:69
+msgid "Success, ignored subscriptions"
+msgstr "Correcte, s'ha ignorat les subscripcions"
+
+#: libgnomecups/gnome-cups-request.c:70
+msgid "Success, ignored notifications"
+msgstr "Correcte, s'ha ignorat les notificacions"
+
+#: libgnomecups/gnome-cups-request.c:71
+msgid "Success, too many events"
+msgstr "Correcte, hi ha massa esdeveiments"
+
+#: libgnomecups/gnome-cups-request.c:72
+msgid "Success, cancel subscription"
+msgstr "Correcte, cancel·la la subscripció"
+
+#: libgnomecups/gnome-cups-request.c:76
+msgid "Bad request"
+msgstr "La petició és errònia"
+
+#: libgnomecups/gnome-cups-request.c:77
+msgid "Forbidden"
+msgstr "Prohibit"
+
+#: libgnomecups/gnome-cups-request.c:78
+msgid "The client has not been authenticated"
+msgstr "El client no s'ha autenticat"
+
+#: libgnomecups/gnome-cups-request.c:79
+msgid "You are not authorized to perform this operation"
+msgstr "No teniu permís per fer aquesta operació"
+
+#: libgnomecups/gnome-cups-request.c:80
+msgid "This operation cannot be completed"
+msgstr "No es pot completar aquesta operació"
+
+#: libgnomecups/gnome-cups-request.c:81
+msgid "Timeout"
+msgstr "Temps d'espera"
+
+#: libgnomecups/gnome-cups-request.c:82
+msgid "The requested file was not found"
+msgstr "No s'ha trobat el fitxer demanat"
+
+#: libgnomecups/gnome-cups-request.c:83
+msgid "The requested resource no longer exists"
+msgstr "Ja no existeix el recurs demanat"
+
+#: libgnomecups/gnome-cups-request.c:84
+msgid "The request was too large"
+msgstr "La petició era massa gran"
+
+#: libgnomecups/gnome-cups-request.c:85
+msgid "The request was too long"
+msgstr "La petició era massa llarga"
+
+#: libgnomecups/gnome-cups-request.c:86
+msgid "The document format is not supported"
+msgstr "No se suporta aquest tipus de document"
+
+#: libgnomecups/gnome-cups-request.c:87
+msgid "The value or attributes in this request are not supported"
+msgstr "No se suporta els valors o els atributs en aquesta petició"
+
+#: libgnomecups/gnome-cups-request.c:88
+msgid "The URI scheme is not supported"
+msgstr "No se suporta l'esquema URI"
+
+#: libgnomecups/gnome-cups-request.c:89
+msgid "The requested character set is not supported"
+msgstr "No se suporta el conjunt de caràcters demanat"
+
+#: libgnomecups/gnome-cups-request.c:90
+msgid "There were conflicting attributes in the request"
+msgstr "Hi ha atributs conflictius en la petició"
+
+#: libgnomecups/gnome-cups-request.c:91
+msgid "Compression is not supported"
+msgstr "No se suporta la compressió"
+
+#: libgnomecups/gnome-cups-request.c:92
+msgid "There was a compression error"
+msgstr "Hi ha hagut un error de compressió"
+
+#: libgnomecups/gnome-cups-request.c:93
+msgid "There was an error in the format of the document"
+msgstr "Hi ha hagut un error en el format del document"
+
+#: libgnomecups/gnome-cups-request.c:94
+msgid "There was an error accessing the document"
+msgstr "Hi ha hagut un error en accedir el document"
+
+#: libgnomecups/gnome-cups-request.c:95
+msgid "Some attributes could not be set"
+msgstr "No s'ha pogut definir alguns dels atributs"
+
+#: libgnomecups/gnome-cups-request.c:96
+msgid "All subscriptions were ignored"
+msgstr "S'ha ignorat totes les subscripcions"
+
+#: libgnomecups/gnome-cups-request.c:97
+msgid "Too many subscriptions"
+msgstr "Hi ha massa subscripcions"
+
+#: libgnomecups/gnome-cups-request.c:98
+msgid "All notifications were ignored."
+msgstr "S'ha ignorat totes les notificacions."
+
+#: libgnomecups/gnome-cups-request.c:99
+msgid "A print support file was not found."
+msgstr "No s'ha trobat un fitxer de suport a la impressió."
+
+#: libgnomecups/gnome-cups-request.c:104
+msgid "Internal server error"
+msgstr "Error intern del servidor"
+
+#: libgnomecups/gnome-cups-request.c:105
+msgid "Operation not supported"
+msgstr "No se suporta l'operació"
+
+#: libgnomecups/gnome-cups-request.c:106
+msgid "Service unavailable"
+msgstr "El servei no està disponible"
+
+#: libgnomecups/gnome-cups-request.c:107
+msgid "Version not supported"
+msgstr "No es suporta la versió"
+
+#: libgnomecups/gnome-cups-request.c:108
+msgid "Device error"
+msgstr "Error en el dispositiu"
+
+#: libgnomecups/gnome-cups-request.c:109
+msgid "Temporary error"
+msgstr "Error temporal"
+
+#: libgnomecups/gnome-cups-request.c:110
+msgid "The printer is not accepting jobs"
+msgstr "La impressora no accepta tasques"
+
+#: libgnomecups/gnome-cups-request.c:111
+msgid "The printer is busy"
+msgstr "La impressora està ocupada"
+
+#: libgnomecups/gnome-cups-request.c:112
+msgid "The job has been canceled"
+msgstr "S'ha cancel·lat la tasca"
+
+#: libgnomecups/gnome-cups-request.c:113
+msgid "Multiple-document jobs are not supported"
+msgstr "No se suporta les tasques amb documents múltiples"
+
+#: libgnomecups/gnome-cups-request.c:114
+msgid "The printer is deactivated"
+msgstr "La impressora està desactivada"
+
+#: libgnomecups/gnome-cups-request.c:119
+msgid "Redirected to another site"
+msgstr "S'ha redirigit a un altre lloc"
+
+#: libgnomecups/gnome-cups-request.c:125
+msgid "Unknown error"
+msgstr "Error desconegut"

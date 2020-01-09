@@ -1,0 +1,3 @@
+libgnomecups/gnome-cups-printer.c
+libgnomecups/gnome-cups-queue.c
+libgnomecups/gnome-cups-request.c

@@ -1,0 +1,236 @@
+# libgnomecups ja.po.
+# Copyright (C) 2003-2004 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libgnomecups package.
+# Takeshi AIHANA <aihana@gnome.gr.jp>, 2003-2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-12-14 09:19-0500\n"
+"PO-Revision-Date: 2004-06-05 18:42+0900\n"
+"Last-Translator: Takeshi AIHANA <aihana@gnome.gr.jp>\n"
+"Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: libgnomecups/gnome-cups-printer.c:86
+msgid "Ready"
+msgstr "準備完了"
+
+#: libgnomecups/gnome-cups-printer.c:87 libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "印刷中"
+
+#: libgnomecups/gnome-cups-printer.c:88 libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "一時停止"
+
+#: libgnomecups/gnome-cups-printer.c:862 libgnomecups/gnome-cups-printer.c:874
+#: libgnomecups/gnome-cups-queue.c:40 libgnomecups/gnome-cups-queue.c:41
+#: libgnomecups/gnome-cups-queue.c:42 libgnomecups/gnome-cups-queue.c:182
+#: libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "不明"
+
+#: libgnomecups/gnome-cups-printer.c:881
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "保留中"
+
+#: libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "停止"
+
+#: libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "キャンセル"
+
+#: libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "中止"
+
+#: libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "完了"
+
+#: libgnomecups/gnome-cups-request.c:66
+msgid "Success"
+msgstr "成功です"
+
+#: libgnomecups/gnome-cups-request.c:67
+msgid "Success, some attributes were ignored"
+msgstr "成功です (いくつかの属性を無視しました)"
+
+#: libgnomecups/gnome-cups-request.c:68
+msgid "Success, some attributes conflicted"
+msgstr "成功です (いくつかの属性が重複しています)"
+
+#: libgnomecups/gnome-cups-request.c:69
+msgid "Success, ignored subscriptions"
+msgstr "成功です (いくつかの予約を無視しました)"
+
+#: libgnomecups/gnome-cups-request.c:70
+msgid "Success, ignored notifications"
+msgstr "成功です (いくつかの通知を無視しました)"
+
+#: libgnomecups/gnome-cups-request.c:71
+msgid "Success, too many events"
+msgstr "成功です (イベントが多すぎます)"
+
+#: libgnomecups/gnome-cups-request.c:72
+msgid "Success, cancel subscription"
+msgstr "成功です (予約をキャンセルしました)"
+
+#: libgnomecups/gnome-cups-request.c:76
+msgid "Bad request"
+msgstr "おかしなリクエスト"
+
+#: libgnomecups/gnome-cups-request.c:77
+msgid "Forbidden"
+msgstr "利用できません"
+
+#: libgnomecups/gnome-cups-request.c:78
+msgid "The client has not been authenticated"
+msgstr "クライアントが認証されていません"
+
+#: libgnomecups/gnome-cups-request.c:79
+msgid "You are not authorized to perform this operation"
+msgstr "この操作に必要な権限がありません"
+
+#: libgnomecups/gnome-cups-request.c:80
+msgid "This operation cannot be completed"
+msgstr "この操作を完了することができません"
+
+#: libgnomecups/gnome-cups-request.c:81
+msgid "Timeout"
+msgstr "タイムアウト"
+
+#: libgnomecups/gnome-cups-request.c:82
+msgid "The requested file was not found"
+msgstr "指定したファイルが見つかりませんでした"
+
+#: libgnomecups/gnome-cups-request.c:83
+msgid "The requested resource no longer exists"
+msgstr "指定したリソースが存在しません"
+
+#: libgnomecups/gnome-cups-request.c:84
+msgid "The request was too large"
+msgstr "リクエストが大きすぎます"
+
+#: libgnomecups/gnome-cups-request.c:85
+msgid "The request was too long"
+msgstr "リクエストが長すぎます"
+
+#: libgnomecups/gnome-cups-request.c:86
+msgid "The document format is not supported"
+msgstr "そのドキュメントの書式をサポートしていません"
+
+#: libgnomecups/gnome-cups-request.c:87
+msgid "The value or attributes in this request are not supported"
+msgstr "このリクエストの値または属性をサポートしていません"
+
+#: libgnomecups/gnome-cups-request.c:88
+msgid "The URI scheme is not supported"
+msgstr "その URI スキーマをサポートしていません"
+
+#: libgnomecups/gnome-cups-request.c:89
+msgid "The requested character set is not supported"
+msgstr "指定した文字セットをサポートしていません"
+
+#: libgnomecups/gnome-cups-request.c:90
+msgid "There were conflicting attributes in the request"
+msgstr "リクエストの中に重複した属性があります"
+
+#: libgnomecups/gnome-cups-request.c:91
+msgid "Compression is not supported"
+msgstr "圧縮形式をサポートしていません"
+
+#: libgnomecups/gnome-cups-request.c:92
+msgid "There was a compression error"
+msgstr "圧縮エラーがあります"
+
+#: libgnomecups/gnome-cups-request.c:93
+msgid "There was an error in the format of the document"
+msgstr "ドキュメントの書式にエラーがあります"
+
+#: libgnomecups/gnome-cups-request.c:94
+msgid "There was an error accessing the document"
+msgstr "ドキュメントにアクセスする際にエラーが発生しました"
+
+#: libgnomecups/gnome-cups-request.c:95
+msgid "Some attributes could not be set"
+msgstr "いくつかの属性をセットできませんでした"
+
+#: libgnomecups/gnome-cups-request.c:96
+msgid "All subscriptions were ignored"
+msgstr "全ての予約を無視しました"
+
+#: libgnomecups/gnome-cups-request.c:97
+msgid "Too many subscriptions"
+msgstr "予約が多すぎます"
+
+#: libgnomecups/gnome-cups-request.c:98
+msgid "All notifications were ignored."
+msgstr "全ての通知を無視しました"
+
+#: libgnomecups/gnome-cups-request.c:99
+msgid "A print support file was not found."
+msgstr "印刷サポートファイルが見つかりませんでした"
+
+#: libgnomecups/gnome-cups-request.c:104
+msgid "Internal server error"
+msgstr "サーバ内部のエラーです"
+
+#: libgnomecups/gnome-cups-request.c:105
+msgid "Operation not supported"
+msgstr "その操作をサポートしていません"
+
+#: libgnomecups/gnome-cups-request.c:106
+msgid "Service unavailable"
+msgstr "そのサービスは利用できません"
+
+#: libgnomecups/gnome-cups-request.c:107
+msgid "Version not supported"
+msgstr "そのバージョンをサポートしていません"
+
+#: libgnomecups/gnome-cups-request.c:108
+msgid "Device error"
+msgstr "デバイスのエラーです"
+
+#: libgnomecups/gnome-cups-request.c:109
+msgid "Temporary error"
+msgstr "一時的なエラーです"
+
+#: libgnomecups/gnome-cups-request.c:110
+msgid "The printer is not accepting jobs"
+msgstr "プリンタがジョブを受け入れていません"
+
+#: libgnomecups/gnome-cups-request.c:111
+msgid "The printer is busy"
+msgstr "プリンタが busy です"
+
+#: libgnomecups/gnome-cups-request.c:112
+msgid "The job has been canceled"
+msgstr "ジョブがキャンセルされています"
+
+#: libgnomecups/gnome-cups-request.c:113
+msgid "Multiple-document jobs are not supported"
+msgstr "Multiple ドキュメントのジョブをサポートしていません"
+
+#: libgnomecups/gnome-cups-request.c:114
+msgid "The printer is deactivated"
+msgstr "プリンタが活性化されていません"
+
+#: libgnomecups/gnome-cups-request.c:119
+msgid "Redirected to another site"
+msgstr "もう一つのサイトにリダイレクトしました"
+
+#: libgnomecups/gnome-cups-request.c:125
+msgid "Unknown error"
+msgstr "不明なエラーです"

@@ -1,0 +1,37 @@
+libgnomecups 0.2.3:
+	* Cleanups and build fixes
+	* Fix a crash.
+	* Fixes for CUPS 1.2
+	* Translation updates
+
+libgnomecups 0.2.2:
+	* Leak fix
+
+libgnomecups 0.2.1:
+	* Fix confusion between http and ipp responses [#171533]
+
+libgnomecups 0.1.13:
+	* More translations from Novell
+	* Better handling of spaces in urls
+
+libgnomecups 0.1.11:
+	* Add some uri escaping utils from inside glib
+
+libgnomecups 0.1.9:
+	* Add Walter's async support
+	* Maclas' explicit server patch
+	* Some build fixes
+	* More translations
+
+libgnomecups 0.1.7:
+	* Bug fixes
+
+libgnomecups 0.1.6:
+	* Bugs fixed:
+		+ Work around cups ppd parsing bug
+		+ Connection handling fix
+
+libgnomecups 0.1.5
+	* Bugs fixed:
+		+ Preconditions added to gnome-cups-printer.c
+	* Translation updates

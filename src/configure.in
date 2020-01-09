@@ -1,0 +1,54 @@
+AC_PREREQ(2.52)
+AC_INIT(libgnomecups, 0.2.3)
+AC_CONFIG_SRCDIR(libgnomecups/gnome-cups-printer.c)
+
+AM_INIT_AUTOMAKE
+AM_CONFIG_HEADER(config.h)
+AM_MAINTAINER_MODE
+
+AC_SUBST(ACLOCAL_AMFLAGS, "\${ACLOCAL_FLAGS}")
+
+LT_VERSION_INFO='-version-info 1:0:0'
+AC_SUBST(LT_VERSION_INFO)
+
+AC_PROG_LIBTOOL
+
+GNOME_COMPILE_WARNINGS(maximum)
+
+AC_PROG_CXX
+
+GLIB_REQUIRED=2.0.0
+AC_SUBST(GLIB_REQUIRED)
+
+PKG_CHECK_MODULES(LIBGNOMECUPS, glib-2.0 >= $GLIB_REQUIRED gobject-2.0 >= $GLIB_REQUIRED gthread-2.0 >= $GLIB_REQUIRED)
+
+AC_PATH_PROG(CUPS_CONFIG, cups-config, no)
+if test "$CUPS_CONFIG" = "no"; then
+  AC_MSG_ERROR([Please install cups development packages])
+fi
+
+CUPS_CFLAGS=`cups-config --cflags | sed 's/-O[0-9]*//' | sed 's/-m[^\t]*//g'`
+CUPS_LIBS=`cups-config --libs`
+
+AC_SUBST(CUPS_CFLAGS)
+AC_SUBST(CUPS_LIBS)
+
+AC_DEFINE(GETTEXT_PACKAGE, "AC_PACKAGE_NAME", [Gettext translation domain])
+GETTEXT_PACKAGE=AC_PACKAGE_NAME
+AC_SUBST(GETTEXT_PACKAGE)
+
+AC_PROG_INTLTOOL([0.20])
+
+dnl Add the languages which your application supports here.
+ALL_LINGUAS="ar bg ca cs da de dz en_CA en_GB es eu fi fr gl gu hi hr hu is it ja lt mk nb ne nl oc pa pl pt pt_BR rw sk sl sq sr sr@Latn sv th tr uk vi wa zh_CN zh_HK zh_TW"
+AM_GLIB_GNU_GETTEXT
+AM_GLIB_DEFINE_LOCALEDIR([GNOMELOCALEDIR])
+
+AC_CONFIG_FILES([
+Makefile
+libgnomecups/Makefile
+libgnomecups-1.0.pc
+po/Makefile.in
+])
+
+AC_OUTPUT

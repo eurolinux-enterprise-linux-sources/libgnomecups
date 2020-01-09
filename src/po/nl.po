@@ -1,0 +1,197 @@
+# Dutch translation of libgnomecups.
+# Copyright (C) 2003 THE libgnomecups'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the libgnomecups package.
+# Vincent van Adrighem <adrighem@gnome.org>, 2003.
+# Tino Meinen <a.t.meinen@chello.nl>, 2004, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups cvs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-07-17 22:37+0000\n"
+"PO-Revision-Date: 2005-07-18 00:58+0200\n"
+"Last-Translator: Tino Meinen <a.t.meinen@chello.nl>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libgnomecups/gnome-cups-printer.c:88
+msgid "Ready"
+msgstr "Klaar"
+
+# bezig met/aan het 
+#: ../libgnomecups/gnome-cups-printer.c:89
+#: ../libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "Afdrukken"
+
+#: ../libgnomecups/gnome-cups-printer.c:90
+#: ../libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "Gepauzeerd"
+
+#: ../libgnomecups/gnome-cups-printer.c:1024
+#: ../libgnomecups/gnome-cups-printer.c:1036
+#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
+#: ../libgnomecups/gnome-cups-queue.c:42
+#: ../libgnomecups/gnome-cups-queue.c:182
+#: ../libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: ../libgnomecups/gnome-cups-printer.c:1043
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "Wachtend"
+
+#: ../libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "Gestopt"
+
+#: ../libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "Geannuleerd"
+
+#: ../libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "Afgebroken"
+
+#: ../libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "Voltooid"
+
+#~ msgid "Success"
+#~ msgstr "Succesvol"
+
+#~ msgid "Success, some attributes were ignored"
+#~ msgstr "Succesvol. Sommige elementen zijn genegeerd"
+
+#~ msgid "Success, some attributes conflicted"
+#~ msgstr "Succesvol. Sommige attributen conflicteerden"
+
+#~ msgid "Success, ignored subscriptions"
+#~ msgstr "Succesvol. Abonnementen worden genegeerd"
+
+#~ msgid "Success, ignored notifications"
+#~ msgstr "Succesvol. Meldingen worden genegeerd"
+
+#~ msgid "Success, too many events"
+#~ msgstr "Succesvol. Te veel gebeurtenissen"
+
+#~ msgid "Success, cancel subscription"
+#~ msgstr "Succesvol. Abonnement afbreken"
+
+#~ msgid "Bad request"
+#~ msgstr "Slechte aanvraag"
+
+#~ msgid "Forbidden"
+#~ msgstr "Verboden"
+
+#~ msgid "The client has not been authenticated"
+#~ msgstr "De client heeft zich niet geïdentificeerd"
+
+#~ msgid "You are not authorized to perform this operation"
+#~ msgstr "U mag deze actie niet uitvoeren"
+
+#~ msgid "This operation cannot be completed"
+#~ msgstr "Deze actie kan niet afgerond worden"
+
+#~ msgid "Timeout"
+#~ msgstr "Timeout"
+
+#~ msgid "The requested file was not found"
+#~ msgstr "Het aangevraagde bestand is niet gevonden"
+
+#~ msgid "The requested resource no longer exists"
+#~ msgstr "De aangevraagde bron bestaat niet meer"
+
+#~ msgid "The request was too large"
+#~ msgstr "De aanvraag is te groot"
+
+#~ msgid "The request was too long"
+#~ msgstr "De aanvraag is te lang"
+
+#~ msgid "The document format is not supported"
+#~ msgstr "Het documentformaat wordt niet ondersteund"
+
+#~ msgid "The value or attributes in this request are not supported"
+#~ msgstr "De waardes of elementen in dit document worden niet ondersteund"
+
+#~ msgid "The URI scheme is not supported"
+#~ msgstr "Dit URI-schema wordt niet ondersteund"
+
+#~ msgid "The requested character set is not supported"
+#~ msgstr "De aangevraagde tekenset wordt niet ondersteund"
+
+#~ msgid "There were conflicting attributes in the request"
+#~ msgstr "Er zitten conflicterende elementen in de aanvraag"
+
+#~ msgid "Compression is not supported"
+#~ msgstr "Compressie wordt niet ondersteund"
+
+#~ msgid "There was a compression error"
+#~ msgstr "Er is een compressiefout opgetreden"
+
+#~ msgid "There was an error in the format of the document"
+#~ msgstr "Er zit een fout in het documentformaat"
+
+#~ msgid "There was an error accessing the document"
+#~ msgstr "Er is een fout opgetreden bij het opvragen van het document"
+
+#~ msgid "Some attributes could not be set"
+#~ msgstr "Sommige elementen konden niet ingesteld worden"
+
+#~ msgid "All subscriptions were ignored"
+#~ msgstr "Alle abonnementen zijn genegeerd"
+
+#~ msgid "Too many subscriptions"
+#~ msgstr "Te veel abonnementen"
+
+#~ msgid "All notifications were ignored."
+#~ msgstr "Alle abonnementen zijn genegeerd."
+
+#~ msgid "A print support file was not found."
+#~ msgstr "Er is geen afdrukondersteuningsbestand gevonden."
+
+#~ msgid "Internal server error"
+#~ msgstr "Interne server-fout"
+
+#~ msgid "Operation not supported"
+#~ msgstr "Actie wordt niet ondersteund"
+
+#~ msgid "Service unavailable"
+#~ msgstr "Service niet beschikbaar"
+
+#~ msgid "Version not supported"
+#~ msgstr "Versie niet ondersteund"
+
+#~ msgid "Device error"
+#~ msgstr "Apparaatfout"
+
+#~ msgid "Temporary error"
+#~ msgstr "Tijdelijke fout"
+
+#~ msgid "The printer is not accepting jobs"
+#~ msgstr "De printer accepteert geen taken"
+
+#~ msgid "The printer is busy"
+#~ msgstr "De printer is bezig"
+
+#~ msgid "The job has been canceled"
+#~ msgstr "De taak is afgebroken"
+
+#~ msgid "Multiple-document jobs are not supported"
+#~ msgstr "Taken van meerdere documenten worden niet ondersteund"
+
+#~ msgid "The printer is deactivated"
+#~ msgstr "De printer is uitgeschakeld"
+
+#~ msgid "Redirected to another site"
+#~ msgstr "Omgeleid naar een andere site"
+
+#~ msgid "Unknown error"
+#~ msgstr "Onbekende fout"

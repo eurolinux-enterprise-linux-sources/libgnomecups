@@ -1,0 +1,237 @@
+# English/Canada translation of libgnomecups.
+# Copyright (C) 2005 Adam Weinberger and the GNOME Foundation
+# This file is distributed under the same licence as the libgnomecups package.
+# Adam Weinberger <adamw@gnome.org>, 2004, 2005.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-03-02 22:29-0500\n"
+"PO-Revision-Date: 2005-03-02 20:48-0500\n"
+"Last-Translator: Adam Weinberger <adamw@gnome.org>\n"
+"Language-Team: Canadian English <adamw@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: libgnomecups/gnome-cups-printer.c:88
+msgid "Ready"
+msgstr "Ready"
+
+#: libgnomecups/gnome-cups-printer.c:89 libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "Printing"
+
+#: libgnomecups/gnome-cups-printer.c:90 libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "Paused"
+
+#: libgnomecups/gnome-cups-printer.c:1017
+#: libgnomecups/gnome-cups-printer.c:1029 libgnomecups/gnome-cups-queue.c:40
+#: libgnomecups/gnome-cups-queue.c:41 libgnomecups/gnome-cups-queue.c:42
+#: libgnomecups/gnome-cups-queue.c:182 libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "Unknown"
+
+#: libgnomecups/gnome-cups-printer.c:1036
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "Pending"
+
+#: libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "Stopped"
+
+#: libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "Cancelled"
+
+#: libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "Aborted"
+
+#: libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "Completed"
+
+#: libgnomecups/gnome-cups-request.c:74
+msgid "Success"
+msgstr "Success"
+
+#: libgnomecups/gnome-cups-request.c:75
+msgid "Success, some attributes were ignored"
+msgstr "Success; some attributes were ignored"
+
+#: libgnomecups/gnome-cups-request.c:76
+msgid "Success, some attributes conflicted"
+msgstr "Success; some attributes conflicted"
+
+#: libgnomecups/gnome-cups-request.c:77
+msgid "Success, ignored subscriptions"
+msgstr "Success; ignored subscriptions"
+
+#: libgnomecups/gnome-cups-request.c:78
+msgid "Success, ignored notifications"
+msgstr "Success; ignored notifications"
+
+#: libgnomecups/gnome-cups-request.c:79
+msgid "Success, too many events"
+msgstr "Success; too many events"
+
+#: libgnomecups/gnome-cups-request.c:80
+msgid "Success, cancel subscription"
+msgstr "Success; cancel subscription"
+
+#: libgnomecups/gnome-cups-request.c:84
+msgid "Bad request"
+msgstr "Bad request"
+
+#: libgnomecups/gnome-cups-request.c:85
+msgid "Forbidden"
+msgstr "Forbidden"
+
+#: libgnomecups/gnome-cups-request.c:86
+msgid "The client has not been authenticated"
+msgstr "The client has not been authenticated"
+
+#: libgnomecups/gnome-cups-request.c:87
+msgid "You are not authorized to perform this operation"
+msgstr "You are not authorized to perform this operation"
+
+#: libgnomecups/gnome-cups-request.c:88
+msgid "This operation cannot be completed"
+msgstr "This operation cannot be completed"
+
+#: libgnomecups/gnome-cups-request.c:89
+msgid "Timeout"
+msgstr "Timeout"
+
+#: libgnomecups/gnome-cups-request.c:90
+msgid "The requested file was not found"
+msgstr "The requested file was not found"
+
+#: libgnomecups/gnome-cups-request.c:91
+msgid "The requested resource no longer exists"
+msgstr "The requested resource no longer exists"
+
+#: libgnomecups/gnome-cups-request.c:92
+msgid "The request was too large"
+msgstr "The request was too large"
+
+#: libgnomecups/gnome-cups-request.c:93
+msgid "The request was too long"
+msgstr "The request was too long"
+
+#: libgnomecups/gnome-cups-request.c:94
+msgid "The document format is not supported"
+msgstr "The document format is not supported"
+
+#: libgnomecups/gnome-cups-request.c:95
+msgid "The value or attributes in this request are not supported"
+msgstr "The values or attributes in this request are not supported"
+
+#: libgnomecups/gnome-cups-request.c:96
+msgid "The URI scheme is not supported"
+msgstr "The URI scheme is not supported"
+
+#: libgnomecups/gnome-cups-request.c:97
+msgid "The requested character set is not supported"
+msgstr "The requested character set is not supported"
+
+#: libgnomecups/gnome-cups-request.c:98
+msgid "There were conflicting attributes in the request"
+msgstr "There were conflicting attributes in the request"
+
+#: libgnomecups/gnome-cups-request.c:99
+msgid "Compression is not supported"
+msgstr "Compression is not supported"
+
+#: libgnomecups/gnome-cups-request.c:100
+msgid "There was a compression error"
+msgstr "There was a compression error"
+
+#: libgnomecups/gnome-cups-request.c:101
+msgid "There was an error in the format of the document"
+msgstr "There was an error in the format of the document"
+
+#: libgnomecups/gnome-cups-request.c:102
+msgid "There was an error accessing the document"
+msgstr "There was an error accessing the document"
+
+#: libgnomecups/gnome-cups-request.c:103
+msgid "Some attributes could not be set"
+msgstr "Some attributes could not be set"
+
+#: libgnomecups/gnome-cups-request.c:104
+msgid "All subscriptions were ignored"
+msgstr "All subscriptions were ignored"
+
+#: libgnomecups/gnome-cups-request.c:105
+msgid "Too many subscriptions"
+msgstr "Too many subscriptions"
+
+#: libgnomecups/gnome-cups-request.c:106
+msgid "All notifications were ignored."
+msgstr "All notifications were ignored."
+
+#: libgnomecups/gnome-cups-request.c:107
+msgid "A print support file was not found."
+msgstr "A print support file was not found."
+
+#: libgnomecups/gnome-cups-request.c:112
+msgid "Internal server error"
+msgstr "Internal server error"
+
+#: libgnomecups/gnome-cups-request.c:113
+msgid "Operation not supported"
+msgstr "Operation not supported"
+
+#: libgnomecups/gnome-cups-request.c:114
+msgid "Service unavailable"
+msgstr "Service unavailable"
+
+#: libgnomecups/gnome-cups-request.c:115
+msgid "Version not supported"
+msgstr "Version not supported"
+
+#: libgnomecups/gnome-cups-request.c:116
+msgid "Device error"
+msgstr "Device error"
+
+#: libgnomecups/gnome-cups-request.c:117
+msgid "Temporary error"
+msgstr "Temporary error"
+
+#: libgnomecups/gnome-cups-request.c:118
+msgid "The printer is not accepting jobs"
+msgstr "The printer is not accepting jobs"
+
+#: libgnomecups/gnome-cups-request.c:119
+msgid "The printer is busy"
+msgstr "The printer is busy"
+
+#: libgnomecups/gnome-cups-request.c:120
+msgid "The job has been canceled"
+msgstr "The job has been cancelled"
+
+#: libgnomecups/gnome-cups-request.c:121
+msgid "Multiple-document jobs are not supported"
+msgstr "Multiple-document jobs are not supported"
+
+#: libgnomecups/gnome-cups-request.c:122
+msgid "The printer is deactivated"
+msgstr "The printer is deactivated"
+
+#: libgnomecups/gnome-cups-request.c:127
+msgid "Redirected to another site"
+msgstr "Redirected to another site"
+
+#: libgnomecups/gnome-cups-request.c:133
+msgid "Unknown error"
+msgstr "Unknown error"

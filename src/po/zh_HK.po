@@ -1,0 +1,74 @@
+# Chinese (Hong Kong) translation of libgnomecups
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as libgnomecups package.
+# Craig Jeffares <cjeffares@novell.com>, 2004
+# Abel Cheung <abel@oaka.org>, 2005
+# Walter Cheuk <wwycheuk@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Libgnomecups 0.2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-04 01:10+0800\n"
+"PO-Revision-Date: 2006-09-04 01:12+0800\n"
+"Last-Translator: Walter Cheuk <wwycheuk@gmail.com>\n"
+"Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Novell Translation
+#: ../libgnomecups/gnome-cups-printer.c:89
+msgid "Ready"
+msgstr "就緒"
+
+# Novell Translation
+#: ../libgnomecups/gnome-cups-printer.c:90
+#: ../libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "正在打印"
+
+# Novell Translation
+#: ../libgnomecups/gnome-cups-printer.c:91
+#: ../libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "已暫停"
+
+#: ../libgnomecups/gnome-cups-printer.c:1078
+#: ../libgnomecups/gnome-cups-printer.c:1090
+#: ../libgnomecups/gnome-cups-queue.c:40 ../libgnomecups/gnome-cups-queue.c:41
+#: ../libgnomecups/gnome-cups-queue.c:42
+#: ../libgnomecups/gnome-cups-queue.c:182
+#: ../libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "未知"
+
+#: ../libgnomecups/gnome-cups-printer.c:1097
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+# Pending 應是等待處理，不是擱置。--Walter
+#: ../libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "正待處理"
+
+# Novell Translation
+#: ../libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "已停止"
+
+# Novell Translation
+#: ../libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "已取消"
+
+# Novell Translation
+#: ../libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "已中止"
+
+# Novell Translation
+#: ../libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "已完成"

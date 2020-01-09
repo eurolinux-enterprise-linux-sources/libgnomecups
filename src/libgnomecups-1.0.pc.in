@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@/libgnomecups-1
+
+Name: libgnomecups
+Description: GNOME CUPS Library
+Version: @VERSION@
+Requires: glib-2.0 gobject-2.0
+Libs: -L${libdir} -lgnomecups-1.0 @CUPS_LIBS@
+Cflags: -I${includedir} @CUPS_CFLAGS@

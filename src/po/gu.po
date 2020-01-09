@@ -1,0 +1,239 @@
+# translation of libgnomecups.HEAD.po to Gujarati
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Ankit Patel <ankit@redhat.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomecups.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-12-14 09:19-0500\n"
+"PO-Revision-Date: 2004-09-09 15:59+0530\n"
+"Last-Translator: Ankit Patel <ankit@redhat.com>\n"
+"Language-Team: Gujarati\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3.1\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+
+#: libgnomecups/gnome-cups-printer.c:86
+msgid "Ready"
+msgstr "તૈયાર"
+
+#: libgnomecups/gnome-cups-printer.c:87 libgnomecups/gnome-cups-queue.c:45
+msgid "Printing"
+msgstr "છાપી રહ્યા છીએ"
+
+#: libgnomecups/gnome-cups-printer.c:88 libgnomecups/gnome-cups-queue.c:44
+msgid "Paused"
+msgstr "અટકાવાયેલ છે"
+
+#: libgnomecups/gnome-cups-printer.c:862 libgnomecups/gnome-cups-printer.c:874
+#: libgnomecups/gnome-cups-queue.c:40 libgnomecups/gnome-cups-queue.c:41
+#: libgnomecups/gnome-cups-queue.c:42 libgnomecups/gnome-cups-queue.c:182
+#: libgnomecups/gnome-cups-queue.c:185
+msgid "Unknown"
+msgstr "અજ્ઞાત"
+
+#: libgnomecups/gnome-cups-printer.c:881
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: libgnomecups/gnome-cups-queue.c:43
+msgid "Pending"
+msgstr "બાકી રહેલ છે"
+
+#: libgnomecups/gnome-cups-queue.c:46
+msgid "Stopped"
+msgstr "બંધ થયેલ છે"
+
+#: libgnomecups/gnome-cups-queue.c:47
+msgid "Canceled"
+msgstr "રદ થયેલ છે"
+
+#: libgnomecups/gnome-cups-queue.c:48
+msgid "Aborted"
+msgstr "અડધેથી બંધ થયેલ છે"
+
+#: libgnomecups/gnome-cups-queue.c:49
+msgid "Completed"
+msgstr "પૂર્ણ થયેલ છે"
+
+#: libgnomecups/gnome-cups-request.c:66
+msgid "Success"
+msgstr "સફળતા"
+
+#: libgnomecups/gnome-cups-request.c:67
+msgid "Success, some attributes were ignored"
+msgstr "સફળતા, અમુક લક્ષણઓ અવગણાયેલ છે"
+
+#: libgnomecups/gnome-cups-request.c:68
+msgid "Success, some attributes conflicted"
+msgstr "સફળતા, અમુક લક્ષણોમાં તકરાર થયેલ છે"
+
+#: libgnomecups/gnome-cups-request.c:69
+msgid "Success, ignored subscriptions"
+msgstr "સફળતા, અવગણાયેલ ઉમેદવારીઓ"
+
+#: libgnomecups/gnome-cups-request.c:70
+msgid "Success, ignored notifications"
+msgstr "સફળતા, અવગણાયેલ સૂચનો"
+
+#: libgnomecups/gnome-cups-request.c:71
+msgid "Success, too many events"
+msgstr "સફળતા, ઘણી બધી ઘટનાઓ"
+
+#: libgnomecups/gnome-cups-request.c:72
+msgid "Success, cancel subscription"
+msgstr "સફળતા, ઉમેદવારી રદ કરો"
+
+#: libgnomecups/gnome-cups-request.c:76
+msgid "Bad request"
+msgstr "ખરાબ માંગણી"
+
+#: libgnomecups/gnome-cups-request.c:77
+msgid "Forbidden"
+msgstr "ભુલાઈ ગયેલ"
+
+#: libgnomecups/gnome-cups-request.c:78
+msgid "The client has not been authenticated"
+msgstr "ક્લાઈન્ટને સત્તાધિકાર મળેલ નથી"
+
+#: libgnomecups/gnome-cups-request.c:79
+msgid "You are not authorized to perform this operation"
+msgstr "તમને આ ક્રિયા કરવા માટે સત્તાધિકાર નથી"
+
+#: libgnomecups/gnome-cups-request.c:80
+msgid "This operation cannot be completed"
+msgstr "આ પ્રક્રિયા પૂર્ણ કરી શકાતી નથી"
+
+#: libgnomecups/gnome-cups-request.c:81
+msgid "Timeout"
+msgstr "સમયસમાપ્ત"
+
+#: libgnomecups/gnome-cups-request.c:82
+msgid "The requested file was not found"
+msgstr "માંગણી થયેલ ફાઈલ મળી નથી"
+
+#: libgnomecups/gnome-cups-request.c:83
+msgid "The requested resource no longer exists"
+msgstr "માંગણી થયેલ સ્રોત લાંબા સમય સુધી અસ્તિત્વમાં નથી"
+
+#: libgnomecups/gnome-cups-request.c:84
+msgid "The request was too large"
+msgstr "માંગણી ખૂબ મોટી હતી"
+
+#: libgnomecups/gnome-cups-request.c:85
+msgid "The request was too long"
+msgstr "માંગણી ખૂબ લાંબી હતી"
+
+#: libgnomecups/gnome-cups-request.c:86
+msgid "The document format is not supported"
+msgstr "દસ્તાવેજના બંધારણને આધાર નથી"
+
+#: libgnomecups/gnome-cups-request.c:87
+msgid "The value or attributes in this request are not supported"
+msgstr "આ માંગણીના લક્ષણો અથવા કિંમત આધારભૂત નથી"
+
+#: libgnomecups/gnome-cups-request.c:88
+msgid "The URI scheme is not supported"
+msgstr "URI પદ્ધતિ આધારભૂત નથી"
+
+#: libgnomecups/gnome-cups-request.c:89
+msgid "The requested character set is not supported"
+msgstr "માંગણી થયેલ અક્ષરોનો સમૂહ આધારભૂત નથી"
+
+#: libgnomecups/gnome-cups-request.c:90
+msgid "There were conflicting attributes in the request"
+msgstr "ત્યાં માંગણીના લક્ષણોમાં તકરાર થઈ હતી"
+
+#: libgnomecups/gnome-cups-request.c:91
+msgid "Compression is not supported"
+msgstr "સંકોચન આધારભૂત નથી"
+
+#: libgnomecups/gnome-cups-request.c:92
+msgid "There was a compression error"
+msgstr "ત્યાં સંકોચન ભૂલ હતી"
+
+#: libgnomecups/gnome-cups-request.c:93
+msgid "There was an error in the format of the document"
+msgstr "ત્યાં દસ્તાવેજના બંધારણમાં ભૂલ હતી"
+
+#: libgnomecups/gnome-cups-request.c:94
+msgid "There was an error accessing the document"
+msgstr "ત્યાં દસ્તાવેજને વાપરવામાં ભૂલ હતી"
+
+#: libgnomecups/gnome-cups-request.c:95
+msgid "Some attributes could not be set"
+msgstr "અમુક લક્ષણો સુયોજિત કરી શકાયા નહિં"
+
+#: libgnomecups/gnome-cups-request.c:96
+msgid "All subscriptions were ignored"
+msgstr "બધી ઉમેદવારીઓ અવગણાયેલ હતી"
+
+#: libgnomecups/gnome-cups-request.c:97
+msgid "Too many subscriptions"
+msgstr "ઘણી બધી ઉમેદવારીઓ"
+
+#: libgnomecups/gnome-cups-request.c:98
+msgid "All notifications were ignored."
+msgstr "બધા સૂચનો અવગણાયેલ હતા."
+
+#: libgnomecups/gnome-cups-request.c:99
+msgid "A print support file was not found."
+msgstr "છાપન આધાર ફાઈલ મળી નહતી."
+
+#: libgnomecups/gnome-cups-request.c:104
+msgid "Internal server error"
+msgstr "આંતરિક સર્વર ભૂલ"
+
+#: libgnomecups/gnome-cups-request.c:105
+msgid "Operation not supported"
+msgstr "દિશાને આધાર નથી"
+
+#: libgnomecups/gnome-cups-request.c:106
+msgid "Service unavailable"
+msgstr "સેવા ઉપ્લબ્ધ નથી"
+
+#: libgnomecups/gnome-cups-request.c:107
+msgid "Version not supported"
+msgstr "આવૃત્તિને આધાર નથી"
+
+#: libgnomecups/gnome-cups-request.c:108
+msgid "Device error"
+msgstr "ઉપકરણ ભૂલ"
+
+#: libgnomecups/gnome-cups-request.c:109
+msgid "Temporary error"
+msgstr "કામચલાઉ ભૂલ"
+
+#: libgnomecups/gnome-cups-request.c:110
+msgid "The printer is not accepting jobs"
+msgstr "પ્રિન્ટર ક્રિયાઓ સ્વીકારતું નથી"
+
+#: libgnomecups/gnome-cups-request.c:111
+msgid "The printer is busy"
+msgstr "પ્રિન્ટર વ્યસ્ત છે"
+
+#: libgnomecups/gnome-cups-request.c:112
+msgid "The job has been canceled"
+msgstr "ક્રિયા રદ થઈ ગયેલ છે"
+
+#: libgnomecups/gnome-cups-request.c:113
+msgid "Multiple-document jobs are not supported"
+msgstr "ઘણા બધા દસ્તાવેજની ક્રિયાઓને આધાર નથી"
+
+#: libgnomecups/gnome-cups-request.c:114
+msgid "The printer is deactivated"
+msgstr "પ્રિન્ટર એ નિષ્ક્રિય થયેલ છે"
+
+#: libgnomecups/gnome-cups-request.c:119
+msgid "Redirected to another site"
+msgstr "બીજી સાઈટ પર દિશા બદલો"
+
+#: libgnomecups/gnome-cups-request.c:125
+msgid "Unknown error"
+msgstr "અજ્ઞાત ભૂલ"
